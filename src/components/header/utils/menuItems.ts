@@ -1,16 +1,1 @@
-import { Paths } from "@/lib/paths";
-
-export const HEADER_MENU_ITEMS = [
-  {
-    name: 'HOME',
-    path: Paths.Home,
-  },
-  {
-    name: 'PROJETOS',
-    path: Paths.Projects,
-  },
-  {
-    name: 'CONTATO',
-    path: Paths.Contact,
-  },
-];
+export const HEADER_MENU_ITEMS = ["Home", "Projects", "Contact"] as const;

@@ -14,8 +14,11 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { SOCIAL_MEDIA } from '@/lib/constants/socialMedia';
 import { Separator } from "@/components/ui/separator"
+import { useTranslations } from 'next-intl';
 
 const HeaderMenuItemsMobile = () => {
+  const t = useTranslations("HeaderItems");
+
   const [sheetOpen, setSheetOpen] = useState(false);
   return (
     <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
@@ -37,14 +40,14 @@ const HeaderMenuItemsMobile = () => {
               <div className="flex flex-col items-center gap-12">
                 {HEADER_MENU_ITEMS.map(item => (
                   <div
-                    key={item.name}
+                    key={t(`${item}.name`)}
                     className="px-4 lg:px-8 transition-all items-center"
                   >
                     <Link
-                      href={item.path}
+                      href={t(`${item}.path`)}
                       className="text-xl duration-100 ease-in hover:border-b-brand-primary hover:dark:border-b-white hover:border-b-2 pb-1"
                     >
-                      {item.name}
+                      {t(`${item}.name`)}
                     </Link>
                   </div>
                 ))}

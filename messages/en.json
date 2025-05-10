@@ -1,0 +1,20 @@
+{
+  "HeaderItems": {
+    "Home": {
+      "name": "HOME",
+      "path": "/"
+    },
+    "Projects": {
+      "name": "PROJECTS",
+      "path": "/projects"
+    },
+    "Contact": {
+      "name": "CONTACT",
+      "path": "/contact"
+    }
+  },
+  "HomePage": {
+    "title": "Olá Mundo!",
+    "about": "Ir para página de contato"
+  }
+}
