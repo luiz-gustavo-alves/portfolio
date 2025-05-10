@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "build-fonts": "tsc src/lib/scripts/generate-fonts.ts --outDir public/fonts",
+    "generate-fonts": "node public/fonts/generate-fonts.js",
+    "use-fonts": "npm run build-fonts && npm run generate-fonts",
+    "clear-cache": "node src/lib/scripts/clear-cache.js",
+    "dev": "npm run use-fonts && next dev --turbopack",
+    "build": "npm run use-fonts && next build",
     "start": "next start",
+    "prod": "npm run build && npm run start",
+    "prod-force": "npm run clear-cache && npm run prod",
     "lint": "next lint"
   },
   "dependencies": {
