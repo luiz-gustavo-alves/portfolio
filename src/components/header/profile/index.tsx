@@ -19,7 +19,7 @@ const HeaderProfile = ({
   return (
     <Link
       href={Paths.Home}
-      className="order-1"
+      className="order-2 sm:order-1"
     >
       <div className="flex items-center gap-4">
         {showImage && (
@@ -30,7 +30,7 @@ const HeaderProfile = ({
           />
         )}
         {showName && (
-          <h1 className="text-base lg:text-lg transition-colors">
+          <h1 className="text-base lg:text-lg transition-colors font-bold">
             LUIZ GUSTAVO ALVES
           </h1>
         )}

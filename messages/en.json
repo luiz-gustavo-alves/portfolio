@@ -14,7 +14,19 @@
     }
   },
   "HomePage": {
-    "title": "Olá Mundo!",
-    "about": "Ir para página de contato"
+    "Hero": {
+      "title": "Hi! I'm Luiz Gustavo Alves",
+      "about": "Software Developer with experience in development of scalable and modern applications.",
+      "CTAs": {
+        "Projects": {
+          "name": "Projects",
+          "path": "/projects"
+        },
+        "Contact": {
+          "name": "Contact",
+          "path": "/contact"
+        }
+      }
+    }
   }
 }
