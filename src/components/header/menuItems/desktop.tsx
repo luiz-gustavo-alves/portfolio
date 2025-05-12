@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { HEADER_MENU_ITEMS } from "../utils/menuItems";
+import { GlobalMessageKeys } from "@/i18n/keys";
 
 const HeaderMenuItemsDesktop = () => {
-  const t = useTranslations("HeaderItems");
+  const t = useTranslations(GlobalMessageKeys.HeaderItems);
 
   return (
     <div className="flex justify-center items-center">

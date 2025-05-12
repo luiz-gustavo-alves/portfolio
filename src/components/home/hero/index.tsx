@@ -7,12 +7,13 @@ import { HERO_CTAS, HERO_CTAS_IMAGES } from '../utils/heroCtas';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
+import { GlobalMessageKeys } from '@/i18n/keys';
 
 const hero = 'Hero';
 const cta = 'CTAs';
 
 const HomeHero = () => {
-  const t = useTranslations("HomePage");
+  const t = useTranslations(GlobalMessageKeys.HomePage);
   const [startAnimation, setStartAnimation] = useState(false);
 
   useEffect(() => {

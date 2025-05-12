@@ -15,9 +15,10 @@ import { useState } from 'react';
 import { SOCIAL_MEDIA } from '@/lib/constants/socialMedia';
 import { Separator } from "@/components/ui/separator"
 import { useTranslations } from 'next-intl';
+import { GlobalMessageKeys } from '@/i18n/keys';
 
 const HeaderMenuItemsMobile = () => {
-  const t = useTranslations("HeaderItems");
+  const t = useTranslations(GlobalMessageKeys.HeaderItems);
 
   const [sheetOpen, setSheetOpen] = useState(false);
   return (
