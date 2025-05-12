@@ -19,7 +19,7 @@ const HeaderProfile = ({
   return (
     <Link
       href={Paths.Home}
-      className="order-2 sm:order-1"
+      className="order-2 md:order-1"
     >
       <div className="flex items-center gap-4">
         {showImage && (

@@ -1,1 +1,1 @@
-export const HEADER_MENU_ITEMS = ["Home", "Projects", "Contact"] as const;
+export const HEADER_MENU_ITEMS = ["Home", "About", "Projects", "Contact"] as const;

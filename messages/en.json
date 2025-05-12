@@ -4,6 +4,10 @@
       "name": "HOME",
       "path": "/"
     },
+    "About": {
+      "name": "ABOUT",
+      "path": "/about"
+    },
     "Projects": {
       "name": "PROJECTS",
       "path": "/projects"
@@ -16,7 +20,7 @@
   "HomePage": {
     "Hero": {
       "title": "Hi! I'm Luiz Gustavo Alves",
-      "about": "Software Developer with experience in development of scalable and modern applications.",
+      "content": "Software Developer with experience in development of scalable and modern applications.",
       "CTAs": {
         "Projects": {
           "name": "Projects",
@@ -27,6 +31,63 @@
           "path": "/contact"
         }
       }
+    }
+  },
+  "About": {
+    "title": "About",
+    "content": "Get to know more about my background and skills",
+    "MainInfo": {
+      "title": "About me",
+      "content_1": "I'm Luiz Gustavo Alves, Full Stack Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. My academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems.",
+      "content_2": "I work as a Full Stack developer and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factory and resellers websites in real-time.",
+      "content_3": "My software development skills includes: NextJs, NestJs, Typescript, JavaScript, React, Tailwind, Prisma, Postgres, MongoDB, Redis, Python, Node.js, HTML + CSS. I also have knowledge in message queue and job processing (BullMQ & RabbitMQ), microservices (AWS & Docker) and application monitoring (Prometheus & Grafana). Along with development skills, I have experience in software testing such as: unit testing, end-to-end testing and stress testing using Jest, Cypress and Grafana k6."
+    },
+    "Education": {
+      "title": "Education",
+      "University": {
+        "title": "Bachelor in Computer Science",
+        "content": "UNIFESP - Universidade Federal de São Paulo",
+        "date": "March 2020 - December 2025",
+        "location": "Brazil, São José dos Campos"
+      },
+      "Bootcamp": {
+        "title": "Full Stack Developer Bootcamp",
+        "content": "Driven Education",
+        "date": "March 2023 - December 2023",
+        "location": "Brazil, São Paulo"
+      }
+    },
+    "Skills": {
+      "title": "Skills",
+      "Languages": {
+        "title": "Languages"
+      },
+      "Frameworks": {
+        "title": "Frameworks/Libraries"
+      },
+      "Databases": {
+        "title": "Databases"
+      },
+      "Microservices": {
+        "title": "Microservices/DevOps"
+      },
+      "Tests": {
+        "title": "Software Testing"
+      }
+    },
+    "Concepts": {
+      "title": "Concepts",
+      "content_1": "Data Structures",
+      "content_2": "Algorithms Design and Analysis",
+      "content_3": "Artificial Intelligence",
+      "content_4": "Object-Oriented Programming",
+      "content_5": "Computer Networks",
+      "content_6": "Distributed Systems",
+      "content_7": "Databases",
+      "content_8": "Computer Security",
+      "content_9": "Operating Systems",
+      "content_10": "Software Engineering",
+      "content_11": "Human-Computer Interation UI/UX"
     }
   }
 }

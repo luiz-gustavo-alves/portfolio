@@ -32,7 +32,7 @@ const HomeHero = () => {
             "animation-opacity-start": startAnimation,
           })}>
             <p className="text-2xl sm:text-3xl text-center">
-              {t(`${hero}.about`)}
+              {t(`${hero}.content`)}
             </p>
           </div>
         </div>
