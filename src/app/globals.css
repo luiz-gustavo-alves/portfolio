@@ -122,4 +122,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .page-container {
+    @apply flex flex-col items-center justify-center gap-16 p-4 md:p-8 !pt-20;
+  }
 }
