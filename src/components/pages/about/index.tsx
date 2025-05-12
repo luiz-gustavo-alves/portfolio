@@ -5,13 +5,13 @@ import AboutCards from './cards';
 import AboutList from './list';
 import { AboutKeys } from './utils/keys';
 import { GlobalMessageKeys } from '@/i18n/keys';
-import SectionTitle from '../sections/title';
+import SectionTitle from '../../sections/title';
 
 const AboutPage = () => {
   const t = useTranslations(GlobalMessageKeys.About);
   return (
     <main className="page-container">
-      <SectionTitle 
+      <SectionTitle
         title={t(`title`)}
         description={t(`content`)}
       />
