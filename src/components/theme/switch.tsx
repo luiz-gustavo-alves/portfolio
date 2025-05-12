@@ -6,7 +6,7 @@ import { useTheme } from "next-themes"
 
 import { Button } from "@/components/ui/button"
 
-export function ThemeSwitch() {
+export default function ThemeSwitch() {
   const [mounted, setMounted] = React.useState(false);
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;

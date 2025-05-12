@@ -19,15 +19,15 @@ const AboutPage = () => {
         </p>
       </div>
 
-      <div className="flex flex-col gap-12 max-w-[1400px] md:flex-row">
-        <div className="lg:w-1/2 flex flex-col gap-8">
+      <div className="flex flex-col gap-12 lg:gap-24 max-w-[1400px] md:flex-row">
+        <div className="md:w-1/2 flex flex-col gap-8">
           <AboutMainDetails />
           <AboutList
             title={t(`${AboutKeys.Concepts}.title`)}
             keysAmount={11}
           />
         </div>
-        <div className="lg:w-1/2 flex flex-col gap-8">
+        <div className="md:w-1/2 flex flex-col gap-8">
           <AboutSkills />
           <AboutCards />
         </div>

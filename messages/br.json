@@ -1,12 +1,15 @@
 {
+  "Languages": {
+    "name": "Idiomas"
+  },
   "HeaderItems": {
-    "Home": {
-      "name": "HOME",
-      "path": "/"
-    },
     "About": {
       "name": "SOBRE",
       "path": "/about"
+    },
+    "Experience": {
+      "name": "EXPERIÊNCIA",
+      "path": "/expeience"
     },
     "Projects": {
       "name": "PROJETOS",

@@ -9,17 +9,19 @@ interface HeaderProfileProps {
   showImage?: boolean;
   showName?: boolean;
   imageClassName?: string;
+  hasOrder?: boolean;
 }
 
 const HeaderProfile = ({
   showImage = true,
   showName = true,
   imageClassName,
+  hasOrder = true,
 }: HeaderProfileProps) => {
   return (
     <Link
       href={Paths.Home}
-      className="order-2 md:order-1"
+      className={hasOrder ? "order-2 md:order-1" : ''}
     >
       <div className="flex items-center gap-4">
         {showImage && (

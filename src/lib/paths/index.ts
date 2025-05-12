@@ -3,5 +3,6 @@ export enum Paths {
   Projects = '/projects',
   Contact = '/contact',
   About = '/about',
+  Experience = '/experience',
   NotFound = '404',
 }

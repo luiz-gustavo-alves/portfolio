@@ -16,6 +16,7 @@ import { SOCIAL_MEDIA } from '@/lib/constants/socialMedia';
 import { Separator } from "@/components/ui/separator"
 import { useTranslations } from 'next-intl';
 import { GlobalMessageKeys } from '@/i18n/keys';
+import HeaderProfile from '../profile';
 
 const HeaderMenuItemsMobile = () => {
   const t = useTranslations(GlobalMessageKeys.HeaderItems);
@@ -38,6 +39,10 @@ const HeaderMenuItemsMobile = () => {
         <SheetClose asChild onClick={() => setSheetOpen(false)}>
           <div className="flex flex-col items-center justify-between h-full py-16">
             <div className="flex flex-col w-full h-full justify-center items-center gap-20">
+              <HeaderProfile
+                showImage={false}
+                hasOrder={false}
+              />
               <div className="flex flex-col items-center gap-12">
                 {HEADER_MENU_ITEMS.map(item => (
                   <div
