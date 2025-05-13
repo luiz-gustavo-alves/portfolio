@@ -8,7 +8,7 @@ import Work from '@/../public/assets/icons/briefcase.svg';
 import University from '@/../public/assets/icons/university.svg';
 import Course from '@/../public/assets/icons/book.svg';
 
-interface ExperienceTimelineItemProps {
+interface ExperienceTimelineDesktopItemProps {
   parentIndex: number;
   date: string;
   icon: string;
@@ -19,7 +19,7 @@ interface ExperienceTimelineItemProps {
   contentOrder: 'left' | 'right';
 }
 
-const ExperienceTimelineItem = ({
+const ExperienceTimelineDesktopItem = ({
   parentIndex,
   date,
   icon,
@@ -28,7 +28,7 @@ const ExperienceTimelineItem = ({
   contentAmount,
   htmlContent,
   contentOrder,
-}: ExperienceTimelineItemProps) => {
+}: ExperienceTimelineDesktopItemProps) => {
   const handleIconImage = (icon: string) => {
     const iconImages = {
       Work: Work,
@@ -46,9 +46,6 @@ const ExperienceTimelineItem = ({
         'order-3 text-left': contentOrder === 'left',
         'order-1 text-right': contentOrder === 'right'
       })}
-        style={{
-          flex: '1 1 0%'
-        }}
       >
         <p className="font-semibold">
           {date}
@@ -107,4 +104,4 @@ const ExperienceTimelineItem = ({
   )
 }
 
-export default ExperienceTimelineItem
+export default ExperienceTimelineDesktopItem

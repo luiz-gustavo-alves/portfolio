@@ -12,7 +12,7 @@ const SectionTitle = ({
       <h2 className="text-5xl font-bold text-center">
         {title}
       </h2>
-      <p className="text-lg text-center text-secondary">
+      <p className="text-xl text-center text-secondary">
         {description}
       </p>
     </section>
