@@ -2,6 +2,11 @@
   "Languages": {
     "name": "Languages"
   },
+  "SocialMedia": {
+    "LinkedIn": {
+      "href": "https://www.linkedin.com/in/luiz-gustavo-alves-dev/?locale=en_US"
+    }
+  },
   "HeaderItems": {
     "About": {
       "name": "ABOUT",
@@ -148,5 +153,9 @@
       "content_3": "Programming Logic, Algorithms Design and Analysis, Data Structures, Artificial Intelligence, Computer Networks, Software Engineering, Human-Computer Interation UI/UX, Computer Security, Operating Systems, Distributed Systems.",
       "html_content": ""
     }
+  },
+  "Contact": {
+    "title": "Contact",
+    "content": "Have a project idea or want to collaborate? Get in touch with me through these communication channels"
   }
 }

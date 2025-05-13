@@ -2,6 +2,11 @@
   "Languages": {
     "name": "Idiomas"
   },
+  "SocialMedia": {
+    "LinkedIn": {
+      "href": "https://www.linkedin.com/in/luiz-gustavo-alves-dev"
+    }
+  },
   "HeaderItems": {
     "About": {
       "name": "SOBRE",
@@ -148,5 +153,9 @@
       "content_3": "Lógica de Programação, Projeto e Análise de Algoritmos, Estrutura de Dados, Inteligência Artificial, Redes de Computadores, Engenharia se Software, Interação Humano-Computador UI/UX, Segurança Computacional, Sistemas Operacionais, Sistemas Distribuídos.",
       "html_content": ""
     }
+  },
+  "Contact": {
+    "title": "Contato",
+    "content": "Tem uma ideia de projeto ou está interessado em colaborar? Entre em contato comigo pelos canais de comunicação"
   }
 }

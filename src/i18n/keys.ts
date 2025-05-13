@@ -1,7 +1,9 @@
 export enum GlobalMessageKeys {
   Languages = "Languages",
+  SocialMedia = "SocialMedia",
   HeaderItems = "HeaderItems",
   HomePage = "HomePage",
   About = "About",
-  Experience = "Experiences"
+  Experience = "Experiences",
+  Contact = "Contact",
 }

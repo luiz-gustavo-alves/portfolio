@@ -8,7 +8,7 @@ const SectionTitle = ({
   description,
 }: SectionTitleProps) => {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 max-w-2xl">
       <h2 className="text-5xl font-bold text-center">
         {title}
       </h2>

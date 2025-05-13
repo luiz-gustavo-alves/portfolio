@@ -12,14 +12,15 @@ import {
 import { HEADER_MENU_ITEMS } from '../utils/menuItems';
 import Link from 'next/link';
 import { useState } from 'react';
-import { SOCIAL_MEDIA } from '@/lib/constants/socialMedia';
+import { SOCIAL_MEDIA, SOCIAL_MEDIA_KEYS } from '@/lib/constants/socialMedia';
 import { Separator } from "@/components/ui/separator"
 import { useTranslations } from 'next-intl';
 import { GlobalMessageKeys } from '@/i18n/keys';
 import HeaderProfile from '../profile';
 
 const HeaderMenuItemsMobile = () => {
-  const t = useTranslations(GlobalMessageKeys.HeaderItems);
+  const t1 = useTranslations(GlobalMessageKeys.HeaderItems);
+  const t2 = useTranslations(GlobalMessageKeys.SocialMedia);
 
   const [sheetOpen, setSheetOpen] = useState(false);
   return (
@@ -46,14 +47,14 @@ const HeaderMenuItemsMobile = () => {
               <div className="flex flex-col items-center gap-12">
                 {HEADER_MENU_ITEMS.map(item => (
                   <div
-                    key={t(`${item}.name`)}
+                    key={t1(`${item}.name`)}
                     className="px-4 lg:px-8 transition-all items-center"
                   >
                     <Link
-                      href={t(`${item}.path`)}
+                      href={t1(`${item}.path`)}
                       className="text-xl duration-100 ease-in hover:border-b-brand-primary hover:dark:border-b-white hover:border-b-2 pb-1"
                     >
-                      {t(`${item}.name`)}
+                      {t1(`${item}.name`)}
                     </Link>
                   </div>
                 ))}
@@ -62,10 +63,10 @@ const HeaderMenuItemsMobile = () => {
             <div className="flex flex-col gap-8 w-full px-8">
               <Separator />
               <div className="flex justify-center gap-8">
-                {Object.entries(SOCIAL_MEDIA).map(([key, { name, image, href }]) => (
+                {Object.entries(SOCIAL_MEDIA).map(([key, { name, image, hasLocale, href }]) => (
                   <Link
                     key={key}
-                    href={href}
+                    href={hasLocale ? t2(`${SOCIAL_MEDIA_KEYS[name as keyof typeof SOCIAL_MEDIA_KEYS]}.href`) : href}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

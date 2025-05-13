@@ -2,12 +2,9 @@ import HtmlGenerator from "@/components/generator/html";
 import { GlobalMessageKeys } from "@/i18n/keys";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
-import Work from '@/../public/assets/icons/briefcase.svg';
-import University from '@/../public/assets/icons/university.svg';
-import Course from '@/../public/assets/icons/book.svg';
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { handleExperienceTimelineIconImage } from "./utils/functions";
 
 interface ExperienceTimelineMobileItemProps {
   parentIndex: number;
@@ -28,23 +25,13 @@ const ExperienceTimelineMobileItem = ({
   contentAmount,
   htmlContent,
 }: ExperienceTimelineMobileItemProps) => {
-  const handleIconImage = (icon: string) => {
-    const iconImages = {
-      Work: Work,
-      University: University,
-      Course: Course,
-    };
-
-    return iconImages[icon as keyof typeof iconImages];
-  }
-
   const t = useTranslations(GlobalMessageKeys.Experience);
   return (
     <Card className="px-6">
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex items-center justify-start gap-4">
         <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full bg-slate-300">
           <Image
-            src={handleIconImage(icon)}
+            src={handleExperienceTimelineIconImage(icon)}
             alt={icon}
             className="min-w-8 min-h-8"
           />

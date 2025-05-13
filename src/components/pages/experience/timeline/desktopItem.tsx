@@ -3,10 +3,7 @@ import { GlobalMessageKeys } from "@/i18n/keys";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
-import Work from '@/../public/assets/icons/briefcase.svg';
-import University from '@/../public/assets/icons/university.svg';
-import Course from '@/../public/assets/icons/book.svg';
+import { handleExperienceTimelineIconImage } from "./utils/functions";
 
 interface ExperienceTimelineDesktopItemProps {
   parentIndex: number;
@@ -29,16 +26,6 @@ const ExperienceTimelineDesktopItem = ({
   htmlContent,
   contentOrder,
 }: ExperienceTimelineDesktopItemProps) => {
-  const handleIconImage = (icon: string) => {
-    const iconImages = {
-      Work: Work,
-      University: University,
-      Course: Course,
-    };
-
-    return iconImages[icon as keyof typeof iconImages];
-  }
-
   const t = useTranslations(GlobalMessageKeys.Experience);
   return (
     <div className="flex w-full max-w-6xl gap-4">
@@ -55,7 +42,7 @@ const ExperienceTimelineDesktopItem = ({
       <div className="order-2 flex flex-col items-center gap-8">
         <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full bg-slate-300">
           <Image
-            src={handleIconImage(icon)}
+            src={handleExperienceTimelineIconImage(icon)}
             alt={icon}
             className="min-w-8 min-h-8"
           />
