@@ -9,7 +9,7 @@
     },
     "Experience": {
       "name": "EXPERIÊNCIA",
-      "path": "/expeience"
+      "path": "/experience"
     },
     "Projects": {
       "name": "PROJETOS",
@@ -91,6 +91,62 @@
       "content_9": "Sistemas Operacionais",
       "content_10": "Engenharia de Software",
       "content_11": "Interação Humano-Computador UI/UX"
+    }
+  },
+  "Experiences": {
+    "title": "Experiência",
+    "content": "Minha carreira profissional e acadêmica",
+    "Experience_1": {
+      "date": "Agosto 2024 - Atual",
+      "icon": "Work",
+      "title": "Desenvolvedor Full Stack",
+      "subtitle": "MotorSync",
+      "content_1": "Desenvolvi aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de fábricas e revendas automotivas em tempo real.",
+      "content_2": "Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos.",
+      "content_3": "Fiz a implementação de funcionalidades para captura de Leads, como contagem de cliques em seções estratégicas da plataforma e cadastro automático de leads integrado com a aplicação de gerenciamento de conteúdo.",
+      "content_4": "Estruturei o SEO dos sites, com geração de metadados estáticos e dinâmicos para títulos, imagens de compartilhamento de links e descrições das páginas.",
+      "content_5": "Desenvolvi componentes de banners, line-up dos produtos, botão flutuante do Whatsapp, galeria de imagens, páginas de erros, paginação, filtros e skeletons.",
+      "content_6": "Fiz a criação e validação de formulários de acessórios, categoria de produtos, banners, campanhas de marketing, configurações gerais e SEO utilizando Yup e React Hook Form.",
+      "content_7": "Tecnologias e ferramentas utilizadas: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
+      "html_content": "<p>Site dos clientes:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a>"
+    },
+    "Experience_2": {
+      "date": "Fevereiro 2024 - Abril 2024",
+      "icon": "Work",
+      "title": "Aprendiz Desenvolvedor de Software",
+      "subtitle": "Stone",
+      "content_1": "Realizei um projeto em parceria com a Stone, modelando uma aplicação para simular o papel do Banco Central do Brasil, focado no processamento de transações PIX. A aplicação também realiza a criação de chaves PIX e comparação de arquivos de relatórios de transações realizadas para verificar inconsistências com a API.",
+      "content_2": "Desenvolvi uma API REST em C#/.NET utilizando arquiteturas em camadas (MVC).",
+      "content_3": "Implementei o mapeamento objeto-relacional e gerenciamento das entidades do banco de dados com Entity Framework.",
+      "content_4": "Estruturei o monitoramento da aplicação utilizando recursos das ferramentas Prometheus e Grafana.",
+      "content_5": "Realizei testes de carga com K6 para analisar o comportamento da aplicação em cenários de alta demanda de requisições e buscar otimizar o desempenho da aplicação.",
+      "content_6": "Implementei serviõs de mensageria com RabbitMQ visando escalabilidade e integração com microsserviços.",
+      "content_7": "Utilizei Docker para gerenciar o ambiente de desenvolvimento e microsserviços.",
+      "html_content": "<p>Repositório GitHub:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
+    },
+    "Experience_3": {
+      "date": "Março 2023 - Dezembro 2023",
+      "icon": "Course",
+      "title": "Curso de Programação Full Stack",
+      "subtitle": "Driven Education",
+      "content_1": "Formação intensiva (1.450 horas no total) baseada em práticas de mercado com experiência direta em projetos de desenvolvimento de software.",
+      "content_2": "Ementa do curso:",
+      "content_3": "Linguagens de Programação: JavaScript, TypeScript, HTML, CSS",
+      "content_4": "Bibliotecas e Frameworks: React, Node.js, Express, Nest.js, Tailwind, Prisma",
+      "content_5": "Banco de Dados: MongoDB, PostgreSQL, Redis",
+      "content_6": "Testes: Testes unitários e testes de integração com Jest, Cypress e Faker.",
+      "content_7": "Infraestrutura e DevOps: API RESTful, Docker, AWS, CI/CD e GitHub Actions.",
+      "html_content": ""
+    },
+    "Experience_4": {
+      "date": "Março 2020 - Dezembro 2025",
+      "icon": "University",
+      "title": "Bacharelado em Ciência da Computação",
+      "subtitle": "UNIFESP - Universidade Federal de São Paulo",
+      "content_1": "Minha trajetória acadêmica permitiu consolidar meus conhecimentos em Algoritmos, Estrutura de Dados, Desenvolvimento de Sistemas e Banco de Dados os quais aplico na construção de sistemas eficientes e modernos.",
+      "content_2": "Fundamentos do curso:",
+      "content_3": "Lógica de Programação, Projeto e Análise de Algoritmos, Estrutura de Dados, Inteligência Artificial, Redes de Computadores, Engenharia se Software, Interação Humano-Computador UI/UX, Segurança Computacional, Sistemas Operacionais, Sistemas Distribuídos.",
+      "html_content": ""
     }
   }
 }

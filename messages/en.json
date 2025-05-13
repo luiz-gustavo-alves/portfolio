@@ -9,7 +9,7 @@
     },
     "Experience": {
       "name": "EXPERIENCE",
-      "path": "/expeience"
+      "path": "/experience"
     },
     "Projects": {
       "name": "PROJECTS",
@@ -42,7 +42,7 @@
     "MainInfo": {
       "title": "About me",
       "content_1": "I'm Luiz Gustavo Alves, Full Stack Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. My academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems.",
-      "content_2": "I work as a Full Stack developer and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factory and resellers websites in real-time.",
+      "content_2": "I work as a Full Stack developer and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factories and resellers websites in real-time.",
       "content_3": "My software development skills includes: NextJs, NestJs, Typescript, JavaScript, React, Tailwind, Prisma, Postgres, MongoDB, Redis, Python, Node.js, HTML + CSS. I also have knowledge in message queue and job processing (BullMQ & RabbitMQ), microservices (AWS & Docker) and application monitoring (Prometheus & Grafana). Along with development skills, I have experience in software testing such as: unit testing, end-to-end testing and stress testing using Jest, Cypress and Grafana k6."
     },
     "Education": {
@@ -91,6 +91,62 @@
       "content_9": "Operating Systems",
       "content_10": "Software Engineering",
       "content_11": "Human-Computer Interation UI/UX"
+    }
+  },
+  "Experiences": {
+    "title": "Experiences",
+    "content": "My professional and academic career",
+    "Experience_1": {
+      "date": "August 2024 - Current",
+      "icon": "Work",
+      "title": "Full Stack Developer",
+      "subtitle": "MotorSync",
+      "content_1": "Developed a complete content management application to manage and update factories and resellers websites in real-time.",
+      "content_2": "Created the following interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
+      "content_3": "Developed features for lead capture, such as click tracking in strategic sections in the platform and automatic lead registration integrated with the content management application.",
+      "content_4": "Structured SEO of the websites, generating static and dynamic metadata for titles, link-sharing images, and page descriptions.",
+      "content_5": "Developed components for banners, product line-up, floating whatsapp button, image gallery, error pages, pagination, filters and skeletons.",
+      "content_6": "Created the following forms: Accessories, Product Categories, Leads, Banners, Marketing Campaigns, SEO.",
+      "content_7": "Tech stack: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
+      "html_content": "<p>Clients websites:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a>"
+    },
+    "Experience_2": {
+      "date": "February 2024 - April 2024",
+      "icon": "Work",
+      "title": "Software Developer Apprenticeship",
+      "subtitle": "Stone",
+      "content_1": "I take part in project with a Brazilian Fintech, Stone, creating an application to simulate the role of the Central Bank of Brazil, focused on processing PIX transactions, instant payment method. The application also handles the creation of PIX keys and have features to analyse transactions files to check inconsistencies with the API.",
+      "content_2": "Developed REST API applications using C# and .NET framework following MVC architecture.",
+      "content_3": "Made object-relational mapping and database management using Entity Framework.",
+      "content_4": "Structured application monitoring using Prometheus and Grafana.",
+      "content_5": "Developed stress tests using K6 to analyse application performance behavior in high requests scenarios.",
+      "content_6": "Created messages brokers using RabbitMQ to achieve scalability and optimize microservices integration.",
+      "content_7": "Used Docker to manage development and microservices environments.",
+      "html_content": "<p>GitHub Repo:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
+    },
+    "Experience_3": {
+      "date": "March 2023 - December 2023",
+      "icon": "Course",
+      "title": "Full Stack Developer Bootcamp",
+      "subtitle": "Driven Education",
+      "content_1": "Intensive course (1,450 hours in total) based on market practices with hands-on experience in software development projects.",
+      "content_2": "Course summary:",
+      "content_3": "Programming Languages: JavaScript, TypeScript, HTML and CSS",
+      "content_4": "Frameworks and Libraries: React, Node.js, Express, Nest.js, Tailwind, Prisma",
+      "content_5": "Databases: MongoDB, PostgreSQL, Redis",
+      "content_6": "Tests: Unit and integration tests using Jest, Cypress and Faker.",
+      "content_7": "DevOps and Infra: API RESTful, Docker, AWS, CI/CD and GitHub Actions.",
+      "html_content": ""
+    },
+    "Experience_4": {
+      "date": "March 2020 - December 2025",
+      "icon": "University",
+      "title": "Bachelor in Computer Science",
+      "subtitle": "UNIFESP - Universidade Federal de São Paulo",
+      "content_1": "My academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems.",
+      "content_2": "Course concepts:",
+      "content_3": "Programming Logic, Algorithms Design and Analysis, Data Structures, Artificial Intelligence, Computer Networks, Software Engineering, Human-Computer Interation UI/UX, Computer Security, Operating Systems, Distributed Systems.",
+      "html_content": ""
     }
   }
 }
