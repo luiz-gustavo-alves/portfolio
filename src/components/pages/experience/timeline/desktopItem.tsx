@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { handleExperienceTimelineIconImage } from "./utils/functions";
+import { Card } from "@/components/ui/card";
 
 interface ExperienceTimelineDesktopItemProps {
   parentIndex: number;
@@ -40,7 +41,7 @@ const ExperienceTimelineDesktopItem = ({
       </div>
 
       <div className="order-2 flex flex-col items-center gap-8">
-        <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full bg-slate-300">
+        <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full bg-gray-300">
           <Image
             src={handleExperienceTimelineIconImage(icon)}
             alt={icon}
@@ -48,45 +49,47 @@ const ExperienceTimelineDesktopItem = ({
           />
         </div>
 
-        <hr className="w-0.5 h-full rotate-180 bg-slate-300"></hr>
+        <hr className="w-0.5 h-full rotate-180 bg-gray-300"></hr>
       </div>
 
-      <div className={cn("flex-1 flex flex-col gap-4", {
+      <Card className={cn("flex-1", {
         'order-1 text-right': contentOrder === 'left',
         'order-3 text-left': contentOrder === 'right'
       })}>
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-xl">
-            {title}
-          </h3>
-          <p className="font-semibold text-lg">
-            {subtitle}
-          </p>
-        </div>
-
-        <div className="flex flex-col gap-4">
-          {Array.from({ length: contentAmount }).map((_, index) => (
-            <p
-              className="text-secondary"
-              key={index}
-            >
-              {t(`Experience_${parentIndex}.content_${index + 1}`)}
+        <div className="px-8 flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
+            <h3 className="font-bold text-xl">
+              {title}
+            </h3>
+            <p className="font-semibold text-lg">
+              {subtitle}
             </p>
-          ))}
-        </div>
-
-        {htmlContent && (
-          <div className={cn("flex gap-1 text-secondary", {
-            "justify-end": contentOrder === 'left',
-            "justify-start": contentOrder === 'right'
-          })}>
-            <HtmlGenerator
-              html={htmlContent}
-              allowAttr={['target']}
-            />
           </div>
-        )}
-      </div>
+
+          <div className="flex flex-col gap-4">
+            {Array.from({ length: contentAmount }).map((_, index) => (
+              <p
+                className="text-secondary"
+                key={index}
+              >
+                {t(`Experience_${parentIndex}.content_${index + 1}`)}
+              </p>
+            ))}
+          </div>
+
+          {htmlContent && (
+            <div className={cn("flex gap-1 text-secondary", {
+              "justify-end": contentOrder === 'left',
+              "justify-start": contentOrder === 'right'
+            })}>
+              <HtmlGenerator
+                html={htmlContent}
+                allowAttr={['target']}
+              />
+            </div>
+          )}
+        </div>
+      </Card>
     </div>
   )
 }

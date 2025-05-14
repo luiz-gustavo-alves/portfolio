@@ -6,7 +6,7 @@ import { GlobalMessageKeys } from "@/i18n/keys";
 const ContactPage = () => {
   const t = useTranslations(GlobalMessageKeys.Contact);
   return (
-    <main className="page-container">
+    <main className="page-container h-[75vh]">
       <SectionTitle
         title={t(`title`)}
         description={t(`content`)}
