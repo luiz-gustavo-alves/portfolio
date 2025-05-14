@@ -9,6 +9,7 @@ import { routing } from '@/i18n/routing';
 import "../globals.css";
 import "../../styles/animation.css";
 import "../../styles/html-generator.css";
+import Footer from "@/components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
             <div className="max-w-[1920px] mx-auto">
               {children}
             </div>
+            <Footer />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

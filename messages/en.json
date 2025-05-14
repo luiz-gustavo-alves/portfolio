@@ -25,6 +25,9 @@
       "path": "/contact"
     }
   },
+  "Footer": {
+    "copyright": "2025 Luiz Gustavo Alves - All rights reserved"
+  },
   "HomePage": {
     "Hero": {
       "title": "Hi! I'm Luiz Gustavo Alves",
