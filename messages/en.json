@@ -48,27 +48,27 @@
       "content": "I offer services to create and provide maintenance for websites, optimize digital presence of your business and host your website with business email and custom domains",
       "FrontEnd": {
         "title": "Frontend Development",
-        "content": "Building complete, responsive and modern user interfaces for all types of devices."
+        "content": "Building complete, modern and responsive user interfaces for all types of devices."
       },
       "BackEnd": {
         "title": "Backend Development",
         "content": "Creating secure, scalable and high performance servers, building APIs, database integrations, microservices, Cron-Jobs, Artificial Intelligence (AI)."
       },
-      "UiUx": {
-        "title": "UI/UX Design",
-        "content": "Creating intuitive and visually appealing components that satisfy costumer needs."
+      "Maintenance": {
+        "title": "Maintenance & Monitoring",
+        "content": "Bug fixes, tech support, application performance monitoring and development of new features that satisfy costumer needs."
       },
       "SoftwareTest": {
         "title": "Software Testing",
         "content": "End to End & Unit Tests, building high rate requests scenarios (Stress Tests)."
       },
-      "PerformanceMaintenance": {
-        "title": "Performance & Maintenance",
-        "content": "Optimizing websites for speed, SEO, accesibility and performance monitoring."
+      "PerformanceDigitalPresence": {
+        "title": "Performance & Digital Presence",
+        "content": "Optimizing websites for speed and search engines visibility, SEO, marketing campaigns and leads capture."
       },
       "WebHosting": {
         "title": "Web Hosting",
-        "content": "Hosting webistes, DNS, domain and subdomain configurations, creating business email."
+        "content": "Hosting webistes, domain and subdomain configurations, creating business email."
       }
     }
   },

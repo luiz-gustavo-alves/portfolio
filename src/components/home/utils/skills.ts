@@ -1,17 +1,17 @@
 import Asterisk from '@/../public/assets/icons/asterisk.svg';
 import Code from '@/../public/assets/icons/code.svg';
 import Server from '@/../public/assets/icons/server.svg';
-import Palette from '@/../public/assets/icons/palette.svg';
-import Flask from '@/../public/assets/icons/flask.svg';
 import Wrench from '@/../public/assets/icons/wrench.svg';
+import Flask from '@/../public/assets/icons/flask.svg';
 import Globe from '@/../public/assets/icons/globe.svg';
+import Router from '@/../public/assets/icons/router.svg';
 
 export const HOME_SKILLS_ITEMS = [
   "FrontEnd",
   "BackEnd",
-  "UiUx",
+  "Maintenance",
   "SoftwareTest",
-  "PerformanceMaintenance",
+  "PerformanceDigitalPresence",
   "WebHosting"
 ]
 
@@ -75,13 +75,13 @@ export const HOME_SKILLS_CARDS = {
         invert: false,
       },
       {
-        title: "Docker",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        title: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
         invert: false,
       },
       {
-        title: "Node.js",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        title: "Docker",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
         invert: false,
       },
       {
@@ -95,38 +95,33 @@ export const HOME_SKILLS_CARDS = {
         invert: false,
       },
       {
-        title: "MongoDB",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
-        invert: false,
-      },
-      {
         title: "Redis",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
         invert: false,
       },
+      {
+        title: "MongoDB",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+        invert: false,
+      },
     ]
   },
-  "UiUx": {
-    icon: Palette,
+  "Maintenance": {
+    icon: Wrench,
     items: [
       {
-        title: "Figma",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+        title: "Sentry",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg",
         invert: false,
       },
       {
-        title: "Tailwind",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        title: "Prometheus",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg",
         invert: false,
       },
       {
-        title: "Shadcn",
-        icon: Asterisk,
-        invert: true,
-      },
-      {
-        title: "CSS",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        title: "Grafana",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg",
         invert: false,
       },
     ]
@@ -161,22 +156,22 @@ export const HOME_SKILLS_CARDS = {
       },
     ]
   },
-  "PerformanceMaintenance": {
-    icon: Wrench,
+  "PerformanceDigitalPresence": {
+    icon: Globe,
     items: [
+      {
+        title: "Google Tag Manager",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg",
+        invert: false,
+      },
       {
         title: "Google Analytics",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg",
         invert: false,
       },
       {
-        title: "Prometheus",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg",
-        invert: false,
-      },
-      {
-        title: "Grafana",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg",
+        title: "Facebook Pixel",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/facebook/facebook-original.svg",
         invert: false,
       },
       {
@@ -192,7 +187,7 @@ export const HOME_SKILLS_CARDS = {
     ]
   },
   "WebHosting": {
-    icon: Globe,
+    icon: Router,
     items: [
       {
         title: "Vercel",
@@ -205,17 +200,12 @@ export const HOME_SKILLS_CARDS = {
         invert: false,
       },
       {
+        title: "Cloudflare",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cloudflare/cloudflare-original.svg",
+        invert: false,
+      },
+      {
         title: "HostGator",
-        icon: Asterisk,
-        invert: true,
-      },
-      {
-        title: "GoDaddy",
-        icon: Asterisk,
-        invert: true,
-      },
-      {
-        title: "cPanel",
         icon: Asterisk,
         invert: true,
       },

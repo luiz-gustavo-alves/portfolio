@@ -54,21 +54,21 @@
         "title": "Desenvolvimento Backend",
         "content": "Construção de sistemas seguros, escaláveis e com alta performance, desenvolvimento de APIs, integrações com banco de dados, microsserviços, Cron-Jobs, Inteligência Artificial (IA)."
       },
-      "UiUx": {
-        "title": "Design UI/UX",
-        "content": "Desenvolvimento de componentes intuitivos e visualmente atraentes que atendam as necessidades dos clientes."
+      "Maintenance": {
+        "title": "Manutenção & Monitoramento",
+        "content": "Correção de erros, suporte técnico, monitoramento do desempenho da aplicação e desenvolvimento de novas funcionalidades que atendam as necessidades dos clientes."
       },
       "SoftwareTest": {
         "title": "Testes de Software",
         "content": "Testes Ponta-Ponta, Testes Unitários e construção de cenários de alta demanda de requisições (Testes de Carga)."
       },
-      "PerformanceMaintenance": {
-        "title": "Performance e Manutenção",
-        "content": "Otimização da velocidade da aplicação, SEO, acessibilidade e monitoramento do desempenho da aplicação."
+      "PerformanceDigitalPresence": {
+        "title": "Performance & Presença Digital",
+        "content": "Otimiziação de velocidade e visibilidade nas páginas de busca, SEO, campanhas de marketing e captura de leads."
       },
       "WebHosting": {
         "title": "Hospedagem",
-        "content": "Hospedagem de sites, configurações de DNS, domínio e subdomínios, criação de email profissional."
+        "content": "Hospedagem de sites, configurações de domínio e subdomínios, criação de email profissional."
       }
     }
   },
