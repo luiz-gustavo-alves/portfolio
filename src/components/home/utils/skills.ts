@@ -44,6 +44,21 @@ export const HOME_SKILLS_CARDS = {
         icon: Asterisk,
         invert: true,
       },
+      {
+        title: "JavaScript",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        invert: false,
+      },
+      {
+        title: "HTML",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+        invert: false,
+      },
+      {
+        title: "CSS",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+        invert: false,
+      }
     ],
   },
   "BackEnd": {
@@ -57,6 +72,16 @@ export const HOME_SKILLS_CARDS = {
       {
         title: "NestJS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg",
+        invert: false,
+      },
+      {
+        title: "Docker",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        invert: false,
+      },
+      {
+        title: "Node.js",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
         invert: false,
       },
       {
@@ -78,7 +103,7 @@ export const HOME_SKILLS_CARDS = {
         title: "Redis",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg",
         invert: false,
-      }
+      },
     ]
   },
   "UiUx": {
@@ -90,20 +115,20 @@ export const HOME_SKILLS_CARDS = {
         invert: false,
       },
       {
-        title: "Shadcn",
-        icon: Asterisk,
-        invert: true,
-      },
-      {
         title: "Tailwind",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
         invert: false,
       },
       {
+        title: "Shadcn",
+        icon: Asterisk,
+        invert: true,
+      },
+      {
         title: "CSS",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
         invert: false,
-      }
+      },
     ]
   },
   "SoftwareTest": {
@@ -115,14 +140,19 @@ export const HOME_SKILLS_CARDS = {
         invert: false,
       },
       {
+        title: "K6",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k6/k6-original.svg",
+        invert: false,
+      },
+      {
         title: "Cypress",
         icon: Asterisk,
         invert: true,
       },
       {
-        title: "K6",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k6/k6-original.svg",
-        invert: false,
+        title: "Supertest",
+        icon: Asterisk,
+        invert: true,
       },
       {
         title: "Faker",
@@ -135,19 +165,9 @@ export const HOME_SKILLS_CARDS = {
     icon: Wrench,
     items: [
       {
-        title: "SEO",
-        icon: Asterisk,
-        invert: true,
-      },
-      {
         title: "Google Analytics",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg",
         invert: false,
-      },
-      {
-        title: "Lighthouse",
-        icon: Asterisk,
-        invert: true,
       },
       {
         title: "Prometheus",
@@ -158,6 +178,16 @@ export const HOME_SKILLS_CARDS = {
         title: "Grafana",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg",
         invert: false,
+      },
+      {
+        title: "SEO",
+        icon: Asterisk,
+        invert: true,
+      },
+      {
+        title: "Lighthouse",
+        icon: Asterisk,
+        invert: true,
       },
     ]
   },
@@ -175,7 +205,17 @@ export const HOME_SKILLS_CARDS = {
         invert: false,
       },
       {
-        title: "DNS",
+        title: "HostGator",
+        icon: Asterisk,
+        invert: true,
+      },
+      {
+        title: "GoDaddy",
+        icon: Asterisk,
+        invert: true,
+      },
+      {
+        title: "cPanel",
         icon: Asterisk,
         invert: true,
       },
@@ -183,7 +223,7 @@ export const HOME_SKILLS_CARDS = {
         title: "Email",
         icon: Asterisk,
         invert: true,
-      }
+      },
     ]
   }
 }

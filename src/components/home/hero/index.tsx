@@ -25,21 +25,21 @@ const HomeHero = () => {
       <div className="relative overflow-hidden h-[555px]">
         <div className="flex flex-col items-center justify-center gap-12">
           <div className="flex flex-col items-center justify-center gap-12 px-5 pt-36">
-            <h2 className={cn("font-bold text-5xl sm:text-7xl text-center animation-opacity duration-150 delay-100", {
+            <h2 className={cn("font-bold text-5xl sm:text-7xl text-center animation-opacity", {
               "animation-opacity-start": startAnimation,
             })}>
               {t(`${hero}.title`)}
             </h2>
-            <div className={cn("max-w-3xl animation-opacity duration-150 delay-200", {
+            <div className={cn("max-w-3xl animation-opacity", {
               "animation-opacity-start": startAnimation,
             })}>
-              <p className="text-2xl sm:text-3xl text-center">
+              <p className="text-2xl sm:text-3xl text-center leading-[160%]">
                 {t(`${hero}.content`)}
               </p>
             </div>
           </div>
 
-          <div className={cn("flex items-center gap-8 animation-opacity duration-150 delay-300", {
+          <div className={cn("flex items-center gap-8 animation-opacity", {
             "animation-opacity-start": startAnimation,
           })}>
             {HERO_CTAS.map((item) => (

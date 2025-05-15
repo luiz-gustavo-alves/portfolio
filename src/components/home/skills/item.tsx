@@ -23,7 +23,7 @@ const HomeSkillsItem = ({
   skills
 }: HomeSkillsItemProps) => {
   return (
-    <Card className="px-8 max-w-[400px] h-full gap-4">
+    <Card className="px-5 max-w-[400px] h-full gap-4">
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full theme-background w-fit">
           <Image
@@ -40,7 +40,7 @@ const HomeSkillsItem = ({
       </div>
 
       <div className="flex flex-col gap-6 items-between h-full">
-        <p className="">
+        <p>
           {description}
         </p>
         <div className="flex flex-col gap-4">

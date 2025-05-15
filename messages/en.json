@@ -26,12 +26,12 @@
     }
   },
   "Footer": {
-    "copyright": "2025 Luiz Gustavo Alves - All rights reserved"
+    "copyright": "2025 Luiz Gustavo Alves - All Rights Reserved"
   },
   "HomePage": {
     "Hero": {
       "title": "Hi! I'm Luiz Gustavo Alves",
-      "content": "Software Developer with experience in development of scalable and modern applications.",
+      "content": "Software Developer with experience in creating scalable and modern applications.",
       "CTAs": {
         "Projects": {
           "name": "Projects",
@@ -44,19 +44,19 @@
       }
     },
     "Skills": {
-      "title": "Skills & Services",
-      "content": "Get to know about my services. I'm Software Develop with experience in building scalable and modern applications",
+      "title": "Services & Skills",
+      "content": "I offer services to create and provide maintenance for websites, optimize digital presence of your business and host your website with business email and custom domains",
       "FrontEnd": {
         "title": "Frontend Development",
-        "content": "Building responsive and modern user interfaces for all types of devices."
+        "content": "Building complete, responsive and modern user interfaces for all types of devices."
       },
       "BackEnd": {
         "title": "Backend Development",
-        "content": "Creating scalable servers, APIs, database integrations, Cron-Jobs and security."
+        "content": "Creating secure, scalable and high performance servers, building APIs, database integrations, microservices, Cron-Jobs, Artificial Intelligence (AI)."
       },
       "UiUx": {
         "title": "UI/UX Design",
-        "content": "Creating intuitive and visually appealing components."
+        "content": "Creating intuitive and visually appealing components that satisfy costumer needs."
       },
       "SoftwareTest": {
         "title": "Software Testing",
@@ -68,7 +68,7 @@
       },
       "WebHosting": {
         "title": "Web Hosting",
-        "content": "Hosting webistes, DNS, domain and subdomain configuration, creating business email."
+        "content": "Hosting webistes, DNS, domain and subdomain configurations, creating business email."
       }
     }
   },
@@ -131,7 +131,7 @@
   },
   "Experiences": {
     "title": "Experiences",
-    "content": "My professional career in Software Development",
+    "content": "My professional career in Software Development and programming trajectory",
     "Experience_1": {
       "date": "August 2024 - Current",
       "icon": "Work",
@@ -140,7 +140,7 @@
       "content_1": "Developed a complete content management application to manage and update factories and resellers websites in real-time.",
       "content_2": "Created the following interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
       "content_3": "Developed features for lead capture, such as click tracking in strategic sections in the platform and automatic lead registration integrated with the content management application.",
-      "content_4": "Structured SEO of the websites, generating static and dynamic metadata for titles, link-sharing images, and page descriptions.",
+      "content_4": "Built SEO of the websites, created static and dynamic metadata for titles, link-sharing images, and page descriptions.",
       "content_5": "Developed components for banners, product line-up, floating whatsapp button, image gallery, error pages, pagination, filters and skeletons.",
       "content_6": "Created the following forms: Accessories, Product Categories, Leads, Banners, Marketing Campaigns, SEO.",
       "content_7": "Tech stack: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
@@ -187,6 +187,6 @@
   },
   "Contact": {
     "title": "Contact",
-    "content": "Have a project idea or want to collaborate? Get in touch with me through these communication channels"
+    "content": "Have a project idea or interested in my services?\nContact me through these communication channels"
   }
 }

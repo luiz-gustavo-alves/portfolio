@@ -26,12 +26,12 @@
     }
   },
   "Footer": {
-    "copyright": "2025 Luiz Gustavo Alves - Todos os direitos reservados"
+    "copyright": "2025 Luiz Gustavo Alves - Todos os Direitos Reservados"
   },
   "HomePage": {
     "Hero": {
       "title": "Olá! Sou Luiz Gustavo Alves",
-      "content": "Desenvolvedor de Software com experiência em desenvolvimento de aplicações escaláveis e modernas.",
+      "content": "Desenvolvedor de Software com experiência em construir aplicações escaláveis e modernas.",
       "CTAs": {
         "Projects": {
           "name": "Projetos",
@@ -44,19 +44,19 @@
       }
     },
     "Skills": {
-      "title": "Habilidades e Serviços",
-      "content": "Conheça mais sobre meus serviços oferecidos. Sou Desenvolvedor de Software com experiência em construir aplicações escaláveis e modernas",
+      "title": "Serviços e Habilidades",
+      "content": "Ofereço serviços para construção e manutenção de sites, otimização da presença digital do seu negócio e hospedagem de sites com email profissional e domínios customizados",
       "FrontEnd": {
         "title": "Desenvolvimento Frontend",
-        "content": "Construção de interfaces modernas e responsivas para todos os dispositivos com tela."
+        "content": "Construção de interfaces completas, modernas e responsivas para todos os tipos de dispositivos."
       },
       "BackEnd": {
         "title": "Desenvolvimento Backend",
-        "content": "Construção de sistemas escaláveis, APIs, integrações com banco de dados, Cron-Jobs e segurança."
+        "content": "Construção de sistemas seguros, escaláveis e com alta performance, desenvolvimento de APIs, integrações com banco de dados, microsserviços, Cron-Jobs, Inteligência Artificial (IA)."
       },
       "UiUx": {
         "title": "Design UI/UX",
-        "content": "Desenvolvimento de componentes intuitivos e visualmente atraentes."
+        "content": "Desenvolvimento de componentes intuitivos e visualmente atraentes que atendam as necessidades dos clientes."
       },
       "SoftwareTest": {
         "title": "Testes de Software",
@@ -74,12 +74,12 @@
   },
   "About": {
     "title": "Sobre",
-    "content": "Conheça mais sobre minha trajetória e habilidades",
+    "content": "Conheça mais sobre meu perfil e habilidades",
     "MainInfo": {
       "title": "Sobre mim",
       "content_1": "Meu nome é Luiz Gustavo Alves, sou Desenvolvedor de Software e Bacharel em Ciência da Computação pela UNIFESP. Minha trajetória acadêmica permitiu consolidar meus conhecimentos em Algoritmos, Estrutura de Dados, Desenvolvimento de Sistemas e Banco de Dados os quais aplico na construção de sistemas eficientes e modernos.",
       "content_2": "Atualmente trabalho como Desenvolvedor Full Stack na MotorSync Sistemas, sou responsável por trabalhar no ciclo completo de desenvolvimento de software, desde a implementação de novas funcionalidades, realização de testes e manutenção do código com objetivo de melhorar a performance e escalabilidade dos sistemas. A nossa equipe atua em aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de revendas automotivas em tempo real.",
-      "content_3": "Minhas habilidades em desenvolvimento de software incluem utilização de ferramentas e tecnologias como: NextJs, NestJs, Typescript, JavasScript, React, Tailwind, Prisma, Postgres, MongoDB, Redis, Python, Node.js HTML + CSS. Tenho conhecimentos em serviços de mensageria (BullMQ e RabbitMQ), microserviços (AWS e Docker) e monitoramento de aplicações (Prometheus e Grafana). Além das habilidades em desenvolvimento, também tenho experiência em teste de software como: testes unitários, testes de ponta a ponta (E2E) e testes de carga utilizando Jest, Cypress e Grafana k6."
+      "content_3": "Minhas habilidades em desenvolvimento de software incluem utilização de ferramentas e tecnologias como: NextJs, NestJs, Typescript, JavasScript, React, Tailwind, Prisma, Postgres, MongoDB, Redis, Python, Node.js HTML + CSS. Tenho conhecimentos em serviços de mensageria (BullMQ e RabbitMQ), microsserviços (AWS e Docker) e monitoramento de aplicações (Prometheus e Grafana). Além das habilidades em desenvolvimento, também tenho experiência em teste de software como: testes unitários, testes de ponta a ponta (E2E) e testes de carga utilizando Jest, Cypress e Grafana k6."
     },
     "Education": {
       "title": "Educação",
@@ -131,7 +131,7 @@
   },
   "Experiences": {
     "title": "Experiência",
-    "content": "Minha carreira profissional em Desenvolvimento de Software",
+    "content": "Minha carreira profissional em Desenvolvimento de Software e trajetória na programação",
     "Experience_1": {
       "date": "Agosto 2024 - Atual",
       "icon": "Work",
@@ -187,6 +187,6 @@
   },
   "Contact": {
     "title": "Contato",
-    "content": "Tem uma ideia de projeto ou está interessado em colaborar? Entre em contato comigo pelos canais de comunicação"
+    "content": "Tem um projeto em mente ou está interessado nos meus serviços?\nEntre em contato pelos canais de comunicação"
   }
 }
