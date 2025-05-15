@@ -22,7 +22,7 @@ export const SOCIAL_MEDIA = {
     hasLocale: true,
   },
   "email": {
-    name: "E-Mail",
+    name: "Email",
     image: Email,
     href: "mailto:luizgustavoalves.dev@gmail.com",
     linkName: "luizgustavoalves.dev@gmail.com",

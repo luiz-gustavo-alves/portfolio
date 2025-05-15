@@ -41,15 +41,15 @@ const ExperienceTimelineDesktopItem = ({
       </div>
 
       <div className="order-2 flex flex-col items-center gap-8">
-        <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full bg-gray-300">
+        <div className="flex items-center justify-center min-w-12 min-h-12 rounded-full theme-background">
           <Image
             src={handleExperienceTimelineIconImage(icon)}
             alt={icon}
-            className="min-w-8 min-h-8"
+            className="min-w-8 min-h-8 dark:invert"
           />
         </div>
 
-        <hr className="w-0.5 h-full rotate-180 bg-gray-300"></hr>
+        <hr className="w-1 h-full rotate-180 theme-background"></hr>
       </div>
 
       <Card className={cn("flex-1", {

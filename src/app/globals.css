@@ -126,4 +126,8 @@
   .page-container {
     @apply flex flex-col items-center justify-center gap-16 p-4 md:p-8 !py-20;
   }
+
+  .theme-background {
+    @apply bg-gray-100 dark:bg-neutral-800;
+  }
 }

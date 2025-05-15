@@ -42,6 +42,34 @@
           "path": "/contact"
         }
       }
+    },
+    "Skills": {
+      "title": "Habilidades e Serviços",
+      "content": "Conheça mais sobre meus serviços oferecidos. Sou Desenvolvedor de Software com experiência em construir aplicações escaláveis e modernas",
+      "FrontEnd": {
+        "title": "Desenvolvimento Frontend",
+        "content": "Construção de interfaces modernas e responsivas para todos os dispositivos com tela."
+      },
+      "BackEnd": {
+        "title": "Desenvolvimento Backend",
+        "content": "Construção de sistemas escaláveis, APIs, integrações com banco de dados, Cron-Jobs e segurança."
+      },
+      "UiUx": {
+        "title": "Design UI/UX",
+        "content": "Desenvolvimento de componentes intuitivos e visualmente atraentes."
+      },
+      "SoftwareTest": {
+        "title": "Testes de Software",
+        "content": "Testes Ponta-Ponta, Testes Unitários e construção de cenários de alta demanda de requisições (Testes de Carga)."
+      },
+      "PerformanceMaintenance": {
+        "title": "Performance e Manutenção",
+        "content": "Otimização da velocidade da aplicação, SEO, acessibilidade e monitoramento do desempenho da aplicação."
+      },
+      "WebHosting": {
+        "title": "Hospedagem",
+        "content": "Hospedagem de sites, configurações de DNS, domínio e subdomínios, criação de email profissional."
+      }
     }
   },
   "About": {
@@ -49,7 +77,7 @@
     "content": "Conheça mais sobre minha trajetória e habilidades",
     "MainInfo": {
       "title": "Sobre mim",
-      "content_1": "Meu nome é Luiz Gustavo Alves, sou Desenvolvedor Full Stack e Bacharel em Ciência da Computação pela UNIFESP. Minha trajetória acadêmica permitiu consolidar meus conhecimentos em Algoritmos, Estrutura de Dados, Desenvolvimento de Sistemas e Banco de Dados os quais aplico na construção de sistemas eficientes e modernos.",
+      "content_1": "Meu nome é Luiz Gustavo Alves, sou Desenvolvedor de Software e Bacharel em Ciência da Computação pela UNIFESP. Minha trajetória acadêmica permitiu consolidar meus conhecimentos em Algoritmos, Estrutura de Dados, Desenvolvimento de Sistemas e Banco de Dados os quais aplico na construção de sistemas eficientes e modernos.",
       "content_2": "Atualmente trabalho como Desenvolvedor Full Stack na MotorSync Sistemas, sou responsável por trabalhar no ciclo completo de desenvolvimento de software, desde a implementação de novas funcionalidades, realização de testes e manutenção do código com objetivo de melhorar a performance e escalabilidade dos sistemas. A nossa equipe atua em aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de revendas automotivas em tempo real.",
       "content_3": "Minhas habilidades em desenvolvimento de software incluem utilização de ferramentas e tecnologias como: NextJs, NestJs, Typescript, JavasScript, React, Tailwind, Prisma, Postgres, MongoDB, Redis, Python, Node.js HTML + CSS. Tenho conhecimentos em serviços de mensageria (BullMQ e RabbitMQ), microserviços (AWS e Docker) e monitoramento de aplicações (Prometheus e Grafana). Além das habilidades em desenvolvimento, também tenho experiência em teste de software como: testes unitários, testes de ponta a ponta (E2E) e testes de carga utilizando Jest, Cypress e Grafana k6."
     },
