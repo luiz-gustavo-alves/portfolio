@@ -1,10 +1,10 @@
 import React from 'react'
-import { Separator } from '../ui/separator'
 import { GlobalMessageKeys } from '@/i18n/keys';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { SOCIAL_MEDIA, SOCIAL_MEDIA_KEYS } from '@/lib/constants/socialMedia';
+import { Separator } from '@/components/ui/separator';
 
 const Footer = () => {
   const t1 = useTranslations(GlobalMessageKeys.Footer);

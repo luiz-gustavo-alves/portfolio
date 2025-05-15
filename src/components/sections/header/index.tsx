@@ -1,5 +1,5 @@
-import LocaleSwitch from "../locale/switch"
-import ThemeSwitch from "../theme/switch"
+import LocaleSwitch from "@/components/locale/switch"
+import ThemeSwitch from "@/components/theme/switch"
 import HeaderMenuItems from "./menuItems"
 import HeaderProfile from "./profile"
 

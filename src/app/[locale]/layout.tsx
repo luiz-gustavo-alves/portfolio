@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Header from "@/components/header";
+import Header from "@/components/sections/header";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
@@ -9,7 +9,7 @@ import { routing } from '@/i18n/routing';
 import "../globals.css";
 import "../../styles/animation.css";
 import "../../styles/html-generator.css";
-import Footer from "@/components/footer";
+import Footer from "@/components/sections/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

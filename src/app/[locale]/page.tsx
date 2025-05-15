@@ -1,5 +1,5 @@
-import HomeHero from "@/components/home/hero";
-import HomeSkils from "@/components/home/skills";
+import HomeHero from "@/components/pages/home/hero";
+import HomeSkils from "@/components/pages/home/skills";
 
 export default function Home() {
   return (
