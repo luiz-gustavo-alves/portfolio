@@ -39,7 +39,7 @@ const HomeSkillsItem = ({
         </CardTitle>
       </div>
 
-      <div className="flex flex-col gap-6 items-between h-full">
+      <div className="flex flex-col gap-6 justify-between h-full">
         <p>
           {description}
         </p>
