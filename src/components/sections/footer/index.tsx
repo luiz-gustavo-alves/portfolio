@@ -10,7 +10,7 @@ const Footer = () => {
   const t1 = useTranslations(GlobalMessageKeys.Footer);
   const t2 = useTranslations(GlobalMessageKeys.SocialMedia);
   return (
-    <footer className="m-6 sm:m-12 lg:mx-24 lg:mt-20">
+    <footer className="my-12 mx-6 sm:m-12 lg:mx-24 lg:mt-20">
       <Separator />
       <div className="flex w-full pt-4">
         <div className="w-full flex flex-col justify-between items-center gap-4 sm:flex-row">

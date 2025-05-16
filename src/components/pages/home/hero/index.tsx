@@ -21,7 +21,7 @@ const HomeHero = () => {
   }, []);
 
   return (
-    <div className="flex items-end justify-center min-h-[85vh] mx-auto">
+    <div className="flex items-end justify-center mx-auto pt-12">
       <div className="relative overflow-hidden h-[555px]">
         <div className="flex flex-col items-center justify-center gap-12">
           <div className="flex flex-col items-center justify-center gap-12 px-5 pt-36">

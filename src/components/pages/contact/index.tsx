@@ -13,7 +13,7 @@ const ContactPage = ({
 }: ContactPageProps) => {
   const t = useTranslations(GlobalMessageKeys.Contact);
   return (
-    <main className={cn("page-container h-[75vh]", className)}>
+    <main className={cn("page-container lg:h-[75vh]", className)}>
       <SectionTitle
         title={t(`title`)}
         description={t(`content`)}

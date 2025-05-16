@@ -124,7 +124,7 @@
   }
 
   .page-container {
-    @apply flex flex-col items-center justify-center gap-16 p-4 md:p-8 !py-20;
+    @apply flex flex-col items-center justify-center gap-16 p-4 md:p-8 !py-12;
   }
 
   .theme-background {

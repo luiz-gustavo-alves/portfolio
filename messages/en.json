@@ -186,8 +186,8 @@
     }
   },
   "Projects": {
-    "title": "Recent Projects",
-    "content": "Explore some of my recent work.\nIncludes work projects, freelance and personal projects.",
+    "title": "Projects",
+    "content": "Explore some of my recent work. Includes work projects, freelancer and personal projects.",
     "Project_1": {
       "title": "MotorSync | CFMOTO Brazil",
       "description": "Website for CFMOTO Brazil to showcase their off-road motorcycles and resellers websites. I created the following user interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
@@ -212,6 +212,6 @@
   },
   "Contact": {
     "title": "Contact",
-    "content": "Have a project idea or interested in my services?\nContact me through these communication channels"
+    "content": "Have a project idea or interested in my services? Contact me through these communication channels"
   }
 }

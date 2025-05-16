@@ -186,8 +186,8 @@
     }
   },
   "Projects": {
-    "title": "Projetos em Destaque",
-    "content": "Explore meus projetos mais recentes.\nContém projetos do trabalho, freelancer e projetos pessoais",
+    "title": "Projetos",
+    "content": "Explore meus projetos mais recentes. Contém projetos do trabalho, freelancer e projetos pessoais",
     "Project_1": {
       "title": "MotorSync | CFMOTO Brasil",
       "description": "Site da fábrica e revendas de quadriciclos off-road CFMOTO. Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos. Além disso, fiz o SEO das páginas e criei funcionalidades para captura de leads com cadastro automático na aplicação geradora de conteúdo.",
@@ -212,6 +212,6 @@
   },
   "Contact": {
     "title": "Contato",
-    "content": "Tem um projeto em mente ou está interessado nos meus serviços?\nEntre em contato pelos canais de comunicação"
+    "content": "Tem um projeto em mente ou está interessado nos meus serviços? Entre em contato pelos canais de comunicação"
   }
 }
