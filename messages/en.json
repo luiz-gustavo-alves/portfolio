@@ -138,7 +138,7 @@
       "title": "Full Stack Developer",
       "subtitle": "MotorSync",
       "content_1": "Developed a complete content management application to manage and update factories and resellers websites in real-time.",
-      "content_2": "Created the following interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
+      "content_2": "Created the following user interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
       "content_3": "Developed features for lead capture, such as click tracking in strategic sections in the platform and automatic lead registration integrated with the content management application.",
       "content_4": "Built SEO of the websites, created static and dynamic metadata for titles, link-sharing images, and page descriptions.",
       "content_5": "Developed components for banners, product line-up, floating whatsapp button, image gallery, error pages, pagination, filters and skeletons.",
@@ -183,6 +183,31 @@
       "content_2": "Course concepts:",
       "content_3": "Programming Logic, Algorithms Design and Analysis, Data Structures, Artificial Intelligence, Computer Networks, Software Engineering, Human-Computer Interation UI/UX, Computer Security, Operating Systems, Distributed Systems.",
       "html_content": ""
+    }
+  },
+  "Projects": {
+    "title": "Recent Projects",
+    "content": "Explore some of my recent work.\nIncludes work projects, freelance and personal projects.",
+    "Project_1": {
+      "title": "MotorSync | CFMOTO Brazil",
+      "description": "Website for CFMOTO Brazil to showcase their off-road motorcycles and resellers websites. I created the following user interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
+      "tag_1": "Work"
+    },
+    "Project_2": {
+      "title": "Lawyer Website",
+      "description": "A professional, visually appealing and responsive lawyer website for all devices. Designed to optimize digital presence and showcase their services. Includes office, services, advocacy team, address and contact pages.",
+      "tag_1": "Freelancer"
+    },
+    "Project_3": {
+      "title": "Portfolio",
+      "description": "Portfolio built with Next.js, Typescript, Tailwind and reusable UI components that can be used across the entire application. Includes animations, features such as: internationalization (i18n) for English and Portuguese languages, dark mode and quick access menu for mobile devices.",
+      "tag_1": "Personal"
+    },
+    "Project_4": {
+      "title": "College Dorms Search Engine",
+      "description": "Website to help students find nearby colleges using search components based on colleges, cities, and states that have nearby dorms. Includes features for customized search filters such as: distance, price, category (male, female, mixed dorms), and lifestyle habits.",
+      "tag_1": "In Progress",
+      "tag_2": "Personal"
     }
   },
   "Contact": {

@@ -6,5 +6,6 @@ export enum GlobalMessageKeys {
   HomePage = "HomePage",
   About = "About",
   Experience = "Experiences",
+  Projects = "Projects",
   Contact = "Contact",
 }

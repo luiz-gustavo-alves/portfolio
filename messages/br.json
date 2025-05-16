@@ -155,7 +155,7 @@
       "content_2": "Desenvolvi uma API REST em C#/.NET utilizando arquiteturas em camadas (MVC).",
       "content_3": "Implementei o mapeamento objeto-relacional e gerenciamento das entidades do banco de dados com Entity Framework.",
       "content_4": "Estruturei o monitoramento da aplicação utilizando recursos das ferramentas Prometheus e Grafana.",
-      "content_5": "Realizei testes de carga com K6 para analisar o comportamento da aplicação em cenários de alta demanda de requisições e buscar otimizar o desempenho da aplicação.",
+      "content_5": "Realizei testes de carga com K6 para analisar o comportamento da aplicação em cenários de alta demanda de requisições e buscar otimizar o desempenho da aplicação. ",
       "content_6": "Implementei serviõs de mensageria com RabbitMQ visando escalabilidade e integração com microsserviços.",
       "content_7": "Utilizei Docker para gerenciar o ambiente de desenvolvimento e microsserviços.",
       "html_content": "<p>Repositório GitHub:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
@@ -183,6 +183,31 @@
       "content_2": "Fundamentos do curso:",
       "content_3": "Lógica de Programação, Projeto e Análise de Algoritmos, Estrutura de Dados, Inteligência Artificial, Redes de Computadores, Engenharia se Software, Interação Humano-Computador UI/UX, Segurança Computacional, Sistemas Operacionais, Sistemas Distribuídos.",
       "html_content": ""
+    }
+  },
+  "Projects": {
+    "title": "Projetos em Destaque",
+    "content": "Explore meus projetos mais recentes.\nContém projetos do trabalho, freelancer e projetos pessoais",
+    "Project_1": {
+      "title": "MotorSync | CFMOTO Brasil",
+      "description": "Site da fábrica e revendas de quadriciclos off-road CFMOTO. Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos. Além disso, fiz o SEO das páginas e criei funcionalidades para captura de leads com cadastro automático na aplicação geradora de conteúdo.",
+      "tag_1": "Trabalho"
+    },
+    "Project_2": {
+      "title": "Site para Advogado",
+      "description": "Site com perfil profissional, visualmente atrativo e responsivo para todos os dispositivos. Construído com objetivo de otimizar a presença digital e divulgação de serviços da área do Direito. Contém páginas para escritóro, áreas de atuação, equipe de advocacia, localização e contato.",
+      "tag_1": "Freelancer"
+    },
+    "Project_3": {
+      "title": "Portfólio",
+      "description": "Portfólio desenvolvido utilizando Next.js, Typescript, Tailwind e componentes UI Shadcn reutilizáveis em toda aplicação. Contém animações, funcionalidade de internacionalização (i18n) para idiomas Inglês e Português, modo noturno e menu de acesso rápido para dispositivos mobile.",
+      "tag_1": "Pessoal"
+    },
+    "Project_4": {
+      "title": "Repúblicas Online",
+      "description": "Plataforma para facilitar o contato direto entre estudantes e anunciantes de repúblicas universitárias utilizando componentes de busca por faculdades, cidades e estados que possuem repúblicas próximas. Possui funcionalidades de filtros personalizados de busca como: distância, preço, categoria (república masculina, feminina, mista) e hábitos de vida.",
+      "tag_1": "Em Desenvolvimento",
+      "tag_2": "Pessoal"
     }
   },
   "Contact": {

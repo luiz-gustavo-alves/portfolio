@@ -2,11 +2,18 @@ import SectionTitle from "@/components/sections/title"
 import ContactCard from "./card"
 import { useTranslations } from "next-intl";
 import { GlobalMessageKeys } from "@/i18n/keys";
+import { cn } from "@/lib/utils";
 
-const ContactPage = () => {
+interface ContactPageProps {
+  className?: string;
+}
+
+const ContactPage = ({
+  className,
+}: ContactPageProps) => {
   const t = useTranslations(GlobalMessageKeys.Contact);
   return (
-    <main className="page-container h-[75vh]">
+    <main className={cn("page-container h-[75vh]", className)}>
       <SectionTitle
         title={t(`title`)}
         description={t(`content`)}
