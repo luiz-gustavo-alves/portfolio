@@ -21,10 +21,10 @@ const HomeHero = () => {
   }, []);
 
   return (
-    <div className="flex items-end justify-center mx-auto pt-12">
+    <div className="flex items-end justify-center mx-auto pt-4">
       <div className="relative overflow-hidden h-[555px]">
         <div className="flex flex-col items-center justify-center gap-12">
-          <div className="flex flex-col items-center justify-center gap-12 px-5 pt-36">
+          <div className="flex flex-col items-center justify-center gap-12 px-5 pt-24 sm:pt-36">
             <h2 className={cn("font-bold text-5xl sm:text-7xl text-center animation-opacity", {
               "animation-opacity-start": startAnimation,
             })}>

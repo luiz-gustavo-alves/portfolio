@@ -31,7 +31,7 @@
   "HomePage": {
     "Hero": {
       "title": "Hi! I'm Luiz Gustavo Alves",
-      "content": "Software Developer with experience in creating scalable and modern applications.",
+      "content": "Software Developer with experience in creating scalable and modern applications",
       "CTAs": {
         "Projects": {
           "name": "Projects",
@@ -77,9 +77,9 @@
     "content": "Get to know more about my background and skills",
     "MainInfo": {
       "title": "About me",
-      "content_1": "I'm Luiz Gustavo Alves, Software Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. My academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems.",
-      "content_2": "I work as a Full Stack developer and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factories and resellers websites in real-time.",
-      "content_3": "My software development skills includes: NextJs, NestJs, Typescript, JavaScript, React, Tailwind, Prisma, Postgres, MongoDB, Redis, Python, Node.js, HTML + CSS. I also have knowledge in message queue and job processing (BullMQ & RabbitMQ), microservices (AWS & Docker) and application monitoring (Prometheus & Grafana). Along with development skills, I have experience in software testing such as: unit testing, end-to-end testing and stress testing using Jest, Cypress and Grafana k6."
+      "content_1": "I'm Luiz Gustavo Alves, Software Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. I entered college in 2020 and my academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems.",
+      "content_2": "I have 3 years of experience in Software Development. I've delivered impactful solutions using Typescript, NestJS, Next.js, React and Tailwind.",
+      "content_3": "I currently work as a Full Stack developer and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factories and resellers websites in real-time."
     },
     "Education": {
       "title": "Education",
