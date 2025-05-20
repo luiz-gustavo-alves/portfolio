@@ -5,13 +5,11 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import OpenGraphImage from '@/../public/assets/metadata/opengraph.jpg';
 
 import "../globals.css";
 import "../../styles/animation.css";
 import "../../styles/html-generator.css";
 import Footer from "@/components/sections/footer";
-import { defaultOpenGraphMetadata } from "@/lib/metadata/defaultOpenGraph";
 import formatDescription from "@/lib/metadata/formatDescription";
 import { getTranslations } from "next-intl/server";
 import { GlobalMessageKeys } from "@/i18n/keys";
@@ -30,29 +28,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale });
 
-  const websiteUrl = process.env.NEXT_PUBLIC_BASE_URL as string;
   const metadata = {
     title: 'Luiz Gustavo Alves',
     description: t(`${GlobalMessageKeys.HomePage}.Hero.content`),
   };
 
   return {
-    metadataBase: new URL(websiteUrl),
     title: {
       template: `%s - ${metadata.title}`,
       default: `${metadata.title}`,
     },
     description: formatDescription(metadata.description),
-    openGraph: {
-      ...defaultOpenGraphMetadata,
-      title: `${metadata.title}`,
-      description: formatDescription(metadata.description),
-      images: {
-        url: OpenGraphImage.src,
-        width: 1200,
-        height: 630,
-      }
-    },
   };
 }
 

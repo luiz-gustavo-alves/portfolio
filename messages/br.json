@@ -10,19 +10,19 @@
   "HeaderItems": {
     "About": {
       "name": "SOBRE",
-      "path": "/about"
+      "path": "/br/about"
     },
     "Experience": {
       "name": "EXPERIÊNCIA",
-      "path": "/experience"
+      "path": "/br/experience"
     },
     "Projects": {
       "name": "PROJETOS",
-      "path": "/projects"
+      "path": "/br/projects"
     },
     "Contact": {
       "name": "CONTATO",
-      "path": "/contact"
+      "path": "/br/contact"
     }
   },
   "Footer": {

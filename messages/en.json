@@ -10,19 +10,19 @@
   "HeaderItems": {
     "About": {
       "name": "ABOUT",
-      "path": "/about"
+      "path": "/en/about"
     },
     "Experience": {
       "name": "EXPERIENCE",
-      "path": "/experience"
+      "path": "/en/experience"
     },
     "Projects": {
       "name": "PROJECTS",
-      "path": "/projects"
+      "path": "/en/projects"
     },
     "Contact": {
       "name": "CONTACT",
-      "path": "/contact"
+      "path": "/en/contact"
     }
   },
   "Footer": {
