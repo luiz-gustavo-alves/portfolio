@@ -86,9 +86,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <title>{metadata.title}</title>
-      <meta name="description" content={metadata.description} />
       <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         <link rel="icon" href="/assets/metadata/favicon.ico" sizes="any" />
         <meta property="og:url" content={`${process.env.NEXT_PUBLIC_BASE_URL}`} />
         <meta property="og:type" content="website" />
