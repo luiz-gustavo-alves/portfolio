@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import OpenGraphImage from '@/../public/assets/metadata/opengraph.jpg';
 import { defaultOpenGraphMetadata } from "@/lib/metadata/defaultOpenGraph";
 
-export async function generateMetadata(): Promise<Metadata> {
+export function generateMetadata(): Metadata {
   const websiteUrl = process.env.NEXT_PUBLIC_BASE_URL as string;
   const metadata = {
     title: 'Luiz Gustavo Alves',
