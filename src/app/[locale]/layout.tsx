@@ -5,6 +5,8 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import OpenGraphImage from '@/../public/assets/metadata/opengraph.jpg';
+import { defaultOpenGraphMetadata } from "@/lib/metadata/defaultOpenGraph";
 
 import "../globals.css";
 import "../../styles/animation.css";
@@ -25,6 +27,8 @@ const geistMono = Geist_Mono({
 });
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const websiteUrl = process.env.NEXT_PUBLIC_BASE_URL as string;
+
   const { locale } = await params;
   const t = await getTranslations({ locale });
 
@@ -34,11 +38,29 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 
   return {
+    metadataBase: new URL(websiteUrl),
+    alternates: {
+      canonical: '/',
+      languages: {
+        'en': '/en',
+        'br': '/br',
+      },
+    },
     title: {
       template: `%s - ${metadata.title}`,
       default: `${metadata.title}`,
     },
     description: formatDescription(metadata.description),
+    openGraph: {
+      ...defaultOpenGraphMetadata,
+      title: `${metadata.title}`,
+      description: `${metadata.description}`,
+      images: {
+        url: OpenGraphImage.src,
+        width: 1200,
+        height: 630,
+      }
+    },
   };
 }
 
