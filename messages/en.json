@@ -7,6 +7,9 @@
       "href": "https://www.linkedin.com/in/luiz-gustavo-alves-dev/?locale=en_US"
     }
   },
+  "HomePath": {
+    "path":  "/en"
+  },
   "HeaderItems": {
     "About": {
       "name": "ABOUT",

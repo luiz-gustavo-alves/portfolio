@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import ProfileImage from '@/../public/assets/images/profile.jpg';
-import { Paths } from '@/lib/paths';
 import React from 'react';
 import { cn } from '@/lib/utils';
+import { GlobalMessageKeys } from '@/i18n/keys';
+import { useTranslations } from 'next-intl';
 
 interface HeaderProfileProps {
   showImage?: boolean;
@@ -18,9 +19,10 @@ const HeaderProfile = ({
   imageClassName,
   hasOrder = true,
 }: HeaderProfileProps) => {
+  const t = useTranslations(GlobalMessageKeys.HomePath);
   return (
     <Link
-      href={Paths.Home}
+      href={t('path')}
       className={hasOrder ? "order-2 md:order-1" : ''}
     >
       <div className="flex items-center gap-4">
