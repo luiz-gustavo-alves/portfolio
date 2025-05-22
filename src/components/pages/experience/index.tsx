@@ -13,7 +13,7 @@ const ExperiencePage = () => {
       />
 
       <ExperienceTimeline 
-        experienceAmount={4}
+        experienceAmount={3}
       />
     </main>
   )

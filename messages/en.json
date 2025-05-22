@@ -35,11 +35,11 @@
       "CTAs": {
         "Projects": {
           "name": "Projects",
-          "path": "/projects"
+          "path": "/projects/en"
         },
         "Contact": {
           "name": "Contact",
-          "path": "/contact"
+          "path": "/contact/en"
         }
       }
     },
@@ -147,20 +147,6 @@
       "html_content": "<p>Clients websites:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a>"
     },
     "Experience_2": {
-      "date": "February 2024 - April 2024",
-      "icon": "Work",
-      "title": "Software Developer Apprenticeship",
-      "subtitle": "Stone",
-      "content_1": "I take part in project with a Brazilian Fintech, Stone, creating an application to simulate the role of the Central Bank of Brazil, focused on processing PIX transactions, instant payment method. The application also handles the creation of PIX keys and have features to analyse transactions files to check inconsistencies with the API.",
-      "content_2": "Developed REST API applications using C# and .NET framework following MVC architecture.",
-      "content_3": "Made object-relational mapping and database management using Entity Framework.",
-      "content_4": "Structured application monitoring using Prometheus and Grafana.",
-      "content_5": "Developed stress tests using K6 to analyse application performance behavior in high requests scenarios.",
-      "content_6": "Created messages brokers using RabbitMQ to achieve scalability and optimize microservices integration.",
-      "content_7": "Used Docker to manage development and microservices environments.",
-      "html_content": "<p>GitHub Repo:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
-    },
-    "Experience_3": {
       "date": "March 2023 - December 2023",
       "icon": "Course",
       "title": "Full Stack Developer Bootcamp",
@@ -174,7 +160,7 @@
       "content_7": "DevOps and Infra: API RESTful, Docker, AWS, CI/CD and GitHub Actions.",
       "html_content": ""
     },
-    "Experience_4": {
+    "Experience_3": {
       "date": "March 2020 - December 2025",
       "icon": "University",
       "title": "Bachelor in Computer Science",
