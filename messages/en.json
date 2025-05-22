@@ -77,9 +77,9 @@
     "content": "Get to know more about my background and skills",
     "MainInfo": {
       "title": "About me",
-      "content_1": "I'm Luiz Gustavo Alves, Software Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. I entered college in 2020 and my academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems.",
-      "content_2": "I have 3 years of experience in Software Development. I've delivered impactful solutions using Typescript, NestJS, Next.js, React and Tailwind.",
-      "content_3": "I currently work as a Full Stack developer and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factories and resellers websites in real-time."
+      "content_1": "I'm Luiz Gustavo Alves, Software Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. I have 5 years of experience in tech and programming and 3 years of experience in Software Development.",
+      "content_2": "I entered college in 2020 and my academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems. I've delivered impactful solutions using Typescript, NestJS, Next.js, React and Tailwind.",
+      "content_3": "I currently work as a Full Stack Developer at MotorSync Sistemas and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factories and resellers websites in real-time."
     },
     "Education": {
       "title": "Education",
