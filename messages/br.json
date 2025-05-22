@@ -141,9 +141,11 @@
       "content_2": "Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos.",
       "content_3": "Fiz a implementação de funcionalidades para captura de Leads, como contagem de cliques em seções estratégicas da plataforma e cadastro automático de leads integrado com a aplicação de gerenciamento de conteúdo.",
       "content_4": "Estruturei o SEO dos sites, com geração de metadados estáticos e dinâmicos para títulos, imagens de compartilhamento de links e descrições das páginas.",
-      "content_5": "Desenvolvi componentes de banners, line-up dos produtos, botão flutuante do Whatsapp, galeria de imagens, páginas de erros, paginação, filtros e skeletons.",
-      "content_6": "Fiz a criação e validação de formulários de acessórios, categoria de produtos, banners, campanhas de marketing, configurações gerais e SEO utilizando Yup e React Hook Form.",
-      "content_7": "Tecnologias e ferramentas utilizadas: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
+      "content_5": "Realizei a hospedagem e configuração dos domínios e subdomínios dos sites das revendas para integrar com os sistemas desenvolvidos.",
+      "content_6": "Trabalhei na manutenção e sustentação do software.",
+      "content_7": "Desenvolvi componentes de banners, line-up dos produtos, botão flutuante do Whatsapp, galeria de imagens, páginas de erros, paginação, filtros e skeletons.",
+      "content_8": "Fiz a criação e validação de formulários de acessórios, categoria de produtos, banners, campanhas de marketing, configurações gerais e SEO utilizando Yup e React Hook Form.",
+      "content_9": "Tecnologias e ferramentas utilizadas: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
       "html_content": "<p>Site dos clientes:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a>"
     },
     "Experience_2": {
