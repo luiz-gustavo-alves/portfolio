@@ -77,10 +77,29 @@ export default async function LocaleLayout({
     notFound();
   }
 
+  const t = await getTranslations({ locale });
+  const metadata = {
+    title: 'Luiz Gustavo Alves',
+    description: t(`${GlobalMessageKeys.HomePage}.Hero.content`),
+  };
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
         <link rel="icon" href="/assets/metadata/favicon.ico" sizes="any" />
+        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_BASE_URL}`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={OpenGraphImage.src} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="luizgustavoalves.dev" />
+        <meta property="twitter:url" content={`${process.env.NEXT_PUBLIC_BASE_URL}`} />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content={OpenGraphImage.src} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
