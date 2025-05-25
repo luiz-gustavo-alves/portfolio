@@ -82,7 +82,7 @@
       "title": "About me",
       "content_1": "I'm Luiz Gustavo Alves, Software Developer and Bachelor in Computer Science at UNIFESP, Universidade Federal de São Paulo - Brazil. I have 5 years of experience in tech and programming and 3 years of experience in Software Development.",
       "content_2": "I entered college in 2020 and my academic background has given me solid knowledge in Algorithms, Data Structures, System Design, Databases which I apply to create efficient and modern systems. I've delivered impactful solutions using Typescript, NestJS, Next.js, React and Tailwind.",
-      "content_3": "I currently work as a Full Stack Developer at MotorSync Sistemas and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update factories and resellers websites in real-time."
+      "content_3": "I currently work as a Full Stack Developer at MotorSync Sistemas and I'm responsible for building new features, creating unit and end-to-end tests and making code maintenance in order to improve the performance and system scalability. Our team works in a Content Management System (CMS) applications to update Off-Road CFMOTO vehicles dealers websites in real-time."
     },
     "Education": {
       "title": "Education",
@@ -140,16 +140,16 @@
       "icon": "Work",
       "title": "Full Stack Developer",
       "subtitle": "MotorSync",
-      "content_1": "Developed a complete content management application to manage and update factories and resellers websites in real-time.",
+      "content_1": "Developed a complete content management application to manage and update CFMOTO Off-Road vehicles dealers websites in real-time.",
       "content_2": "Created the following user interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
       "content_3": "Developed features for lead capture, such as click tracking in strategic sections in the platform and automatic lead registration integrated with the content management application.",
       "content_4": "Built SEO of the websites, created static and dynamic metadata for titles, link-sharing images, and page descriptions.",
-      "content_5": "I hosted and made configurations for resellers domains and subdomains to integrate with our developed systems.",
+      "content_5": "I hosted and made configurations for dealers domains and subdomains to integrate with our systems.",
       "content_6": "I worked in maintenance and software support.",
       "content_7": "Developed components for banners, product line-up, floating whatsapp button, image gallery, error pages, pagination, filters and skeletons.",
       "content_8": "Created the following forms: Accessories, Product Categories, Leads, Banners, Marketing Campaigns, SEO.",
       "content_9": "Tech stack: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
-      "html_content": "<p>Clients websites:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a>"
+      "html_content": "<p>Clients websites:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br/pages/revendas\"><b>Link</b></a>"
     },
     "Experience_2": {
       "date": "March 2023 - December 2023",
@@ -180,8 +180,8 @@
     "title": "Projects",
     "content": "Explore some of my recent work. Includes work projects, freelancer and personal projects.",
     "Project_1": {
-      "title": "MotorSync | CFMOTO Brazil",
-      "description": "Website for CFMOTO Brazil to showcase their off-road motorcycles and resellers websites. I created the following user interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
+      "title": "CFMOTO Brazil | MotorSync",
+      "description": "Website for CFMOTO Brazil to showcase their Off-Road vehicles and dealers websites. I created the following user interfaces: HomePage, Type of Products, Product Categories, Product Page, Accessories Page, About Us, Tech Assist and Contact Page.",
       "tag_1": "Work"
     },
     "Project_2": {

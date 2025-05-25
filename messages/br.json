@@ -140,16 +140,16 @@
       "icon": "Work",
       "title": "Desenvolvedor Full Stack",
       "subtitle": "MotorSync",
-      "content_1": "Desenvolvi aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de fábricas e revendas automotivas em tempo real.",
+      "content_1": "Desenvolvi aplicações completas de gerenciamento de conteúdo para gerir e atualizar sites de revendas automotivas Off-Road CFMOTO em tempo real.",
       "content_2": "Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos.",
       "content_3": "Fiz a implementação de funcionalidades para captura de Leads, como contagem de cliques em seções estratégicas da plataforma e cadastro automático de leads integrado com a aplicação de gerenciamento de conteúdo.",
       "content_4": "Estruturei o SEO dos sites, com geração de metadados estáticos e dinâmicos para títulos, imagens de compartilhamento de links e descrições das páginas.",
       "content_5": "Realizei a hospedagem e configuração dos domínios e subdomínios dos sites das revendas para integrar com os sistemas desenvolvidos.",
       "content_6": "Trabalhei na manutenção e sustentação do software.",
       "content_7": "Desenvolvi componentes de banners, line-up dos produtos, botão flutuante do Whatsapp, galeria de imagens, páginas de erros, paginação, filtros e skeletons.",
-      "content_8": "Fiz a criação e validação de formulários de acessórios, categoria de produtos, banners, campanhas de marketing, configurações gerais e SEO utilizando Yup e React Hook Form.",
+      "content_8": "Fiz a criação e validação de formulários de acessórios, categoria de produtos, banners, campanhas de marketing, configurações gerais e SEO.",
       "content_9": "Tecnologias e ferramentas utilizadas: Typescript, NestJS, Next.js, React, Tailwind, Prisma.",
-      "html_content": "<p>Site dos clientes:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a>"
+      "html_content": "<p>Site dos clientes:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br/pages/revendas\"><b>Link</b></a>"
     },
     "Experience_2": {
       "date": "Março 2023 - Dezembro 2023",
@@ -180,8 +180,8 @@
     "title": "Projetos",
     "content": "Explore meus projetos mais recentes. Contém projetos do trabalho, freelancer e projetos pessoais",
     "Project_1": {
-      "title": "MotorSync | CFMOTO Brasil",
-      "description": "Site da fábrica e revendas de quadriciclos off-road CFMOTO. Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos. Além disso, fiz o SEO das páginas e criei funcionalidades para captura de leads com cadastro automático na aplicação geradora de conteúdo.",
+      "title": "CFMOTO Brasil | MotorSync",
+      "description": "Site da CFMOTO Brasil para exibir seus produtos e todas revendas Off-Road disponíveis. Desenvolvi as seguintes interfaces: Página Inicial, Tipo de Produto, Categoria dos Produtos, Página do Produto, Página de Acessórios, Página Sobre Nós, Assistência Técnica e Contatos. Além disso, fiz o SEO das páginas e criei funcionalidades para captura de leads com cadastro automático na aplicação geradora de conteúdo.",
       "tag_1": "Trabalho"
     },
     "Project_2": {

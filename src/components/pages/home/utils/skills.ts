@@ -110,11 +110,6 @@ export const HOME_SKILLS_CARDS = {
     icon: Wrench,
     items: [
       {
-        title: "Sentry",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg",
-        invert: false,
-      },
-      {
         title: "Prometheus",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg",
         invert: false,
