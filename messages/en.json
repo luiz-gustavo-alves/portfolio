@@ -38,11 +38,11 @@
       "CTAs": {
         "Projects": {
           "name": "Projects",
-          "path": "/projects/en"
+          "path": "/en/projects"
         },
         "Contact": {
           "name": "Contact",
-          "path": "/contact/en"
+          "path": "/en/contact"
         }
       }
     },
