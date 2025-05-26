@@ -5,10 +5,14 @@
   "SocialMedia": {
     "LinkedIn": {
       "href": "https://www.linkedin.com/in/luiz-gustavo-alves-dev/?locale=en_US"
+    },
+    "Email": {
+      "href": "mailto:contact@luizgustavoalves.dev",
+      "name": "contact@luizgustavoalves.dev"
     }
   },
   "HomePath": {
-    "path":  "/en"
+    "path": "/en"
   },
   "HeaderItems": {
     "About": {

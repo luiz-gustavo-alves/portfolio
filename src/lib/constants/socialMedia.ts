@@ -4,6 +4,7 @@ import Email from '@/../public/assets/icons/mail.svg';
 
 export const SOCIAL_MEDIA_KEYS = {
   LinkedIn: "LinkedIn",
+  Email: "Email",
 }
 
 export const SOCIAL_MEDIA = {
@@ -13,6 +14,7 @@ export const SOCIAL_MEDIA = {
     href: "https://github.com/luiz-gustavo-alves",
     linkName: "luiz-gustavo-alves",
     hasLocale: false,
+    localeName: false,
   },
   "linkedin": {
     name: "LinkedIn",
@@ -20,12 +22,14 @@ export const SOCIAL_MEDIA = {
     href: "https://linkedin.com/in/luiz-gustavo-alves-dev/",
     linkName: "luiz-gustavo-alves-dev",
     hasLocale: true,
+    localeName: false,
   },
   "email": {
     name: "Email",
     image: Email,
     href: "mailto:luizgustavoalves.dev@gmail.com",
     linkName: "luizgustavoalves.dev@gmail.com",
-    hasLocale: false,
+    hasLocale: true,
+    localeName: true,
   }
 }

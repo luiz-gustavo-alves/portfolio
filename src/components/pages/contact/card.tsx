@@ -9,7 +9,7 @@ const ContactCard = () => {
   const t = useTranslations(GlobalMessageKeys.SocialMedia);
   return (
     <Card className="px-4 sm:px-8 sm:w-[440px]">
-      {Object.entries(SOCIAL_MEDIA).map(([key, { name, image, href, hasLocale, linkName }]) => (
+      {Object.entries(SOCIAL_MEDIA).map(([key, { name, image, href, hasLocale, localeName, linkName }]) => (
         <Link
           key={key}
           href={hasLocale ? t(`${SOCIAL_MEDIA_KEYS[name as keyof typeof SOCIAL_MEDIA_KEYS]}.href`) : href}
@@ -29,7 +29,7 @@ const ContactCard = () => {
                   {name}
                 </h3>
                 <p className="text-sm text-secondary">
-                  {linkName}
+                  {localeName ? t(`${SOCIAL_MEDIA_KEYS[name as keyof typeof SOCIAL_MEDIA_KEYS]}.name`) : linkName}
                 </p>
               </div>
             </div>
