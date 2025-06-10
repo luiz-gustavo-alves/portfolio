@@ -156,6 +156,19 @@
       "html_content": "<p>Clients websites:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br/pages/revendas\"><b>Link</b></a>"
     },
     "Experience_2": {
+      "date": "February 2024 - May 2024",
+      "icon": "Work",
+      "title": "Software Developer",
+      "subtitle": "Stone",
+      "content_1": "Created API focused on processing PIX transactions (instant payment method). The application also handles the creation of PIX keys and have features to analyse transactions files to check inconsistencies with the API.",
+      "content_2": "Developed the API using .NET, C# and Entity Framework.",
+      "content_3": "Used monitoring tools, such as Prometheus and Grafana.",
+      "content_4": "Created stress tests using K6 to analyse API performance in high requests scenarios.",
+      "content_5": "Created messages brokers using RabbitMQ to achieve scalability and optimize microservices integration.",
+      "content_6": "Used Docker to manage development and microservices environments.",
+      "html_content": "<p>GitHub Repo:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
+    },
+    "Experience_3": {
       "date": "March 2023 - December 2023",
       "icon": "Course",
       "title": "Full Stack Developer Bootcamp",
@@ -169,7 +182,7 @@
       "content_7": "DevOps and Infra: API RESTful, Docker, AWS, CI/CD and GitHub Actions.",
       "html_content": ""
     },
-    "Experience_3": {
+    "Experience_4": {
       "date": "March 2020 - December 2025",
       "icon": "University",
       "title": "Bachelor in Computer Science",
