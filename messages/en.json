@@ -156,16 +156,15 @@
       "html_content": "<p>Clients websites:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br/pages/revendas\"><b>Link</b></a>"
     },
     "Experience_2": {
-      "date": "February 2024 - May 2024",
+      "date": "February 2024 - April 2024",
       "icon": "Work",
-      "title": "Software Developer",
+      "title": "Backend Developer",
       "subtitle": "Stone",
-      "content_1": "Created API focused on processing PIX transactions (instant payment method). The application also handles the creation of PIX keys and have features to analyse transactions files to check inconsistencies with the API.",
-      "content_2": "Developed the API using .NET, C# and Entity Framework.",
-      "content_3": "Used monitoring tools, such as Prometheus and Grafana.",
-      "content_4": "Created stress tests using K6 to analyse API performance in high requests scenarios.",
-      "content_5": "Created messages brokers using RabbitMQ to achieve scalability and optimize microservices integration.",
-      "content_6": "Used Docker to manage development and microservices environments.",
+      "content_1": "Developed API focused on processing PIX transactions (instant payment method). The application also handles the creation of PIX keys and features to analyse transactions files to check inconsistencies with the API.",
+      "content_2": "Created stress tests using K6 to simulate high requests scenarios and used monitoring tools (Prometheus & Grafana) to analyse API performance.",
+      "content_3": "Used messages brokers (RabbitMQ) to achieve scalability and optimize transactions analysis.",
+      "content_4": "Created data models and mapped relational entities using Entity Framework.",
+      "content_5": "Tech stack: C#, .NET, Entity Framework, Prometheus, Grafana.",
       "html_content": "<p>GitHub Repo:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
     },
     "Experience_3": {

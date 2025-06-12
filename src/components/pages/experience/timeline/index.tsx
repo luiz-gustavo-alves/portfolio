@@ -11,7 +11,7 @@ interface ExperienceTimelineProps {
 }
 
 const EXPERIENCE_CONTENT_AMOUNT = [
-  9, 6, 7, 3,
+  9, 5, 7, 3,
 ]
 
 const ExperienceTimeline = ({

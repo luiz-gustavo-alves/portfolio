@@ -156,16 +156,15 @@
       "html_content": "<p>Site dos clientes:</p> <a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br\"><b>Link</b></a><a target=\"_blank\" href=\"https://cfmoto.com.br/pages/revendas\"><b>Link</b></a>"
     },
     "Experience_2": {
-      "date": "Fevereiro 2024 - Maio 2024",
+      "date": "Fevereiro 2024 - Abril 2024",
       "icon": "Work",
-      "title": "Desenvolvedor de Software",
+      "title": "Desenvolvedor Backend",
       "subtitle": "Stone",
-      "content_1": "Participei de um projeto para criar uma API focada no processamento de transações PIX. A aplicação também faz a criação de chaves PIX e comparação de arquivos de relatórios de transações realizadas para verificar inconsistências com a API.",
-      "content_2": "Desenvolvi a API utilizando .NET, C# e Entity Framework.",
-      "content_3": "Estruturei o monitoramento da aplicação utilizando recursos das ferramentas Prometheus e Grafana.",
-      "content_4": "Realizei testes de carga com K6 para analisar o comportamento da aplicação em cenários de alta demanda de requisições e buscar otimizar o desempenho da aplicação.",
-      "content_5": "Implementei serviços de mensageria com RabbitMQ visando escalabilidade e integração com microserviços.",
-      "content_6": "Utilizei Docker para gerenciar o ambiente de desenvolvimento e microserviços.",
+      "content_1": "Participei de um projeto temporário para criar uma API focada no processamento de transações PIX. A aplicação também faz a criação de chaves PIX e comparação de arquivos de relatórios das transações realizadas para verificar inconsistências de dados com a API.",
+      "content_2": "Realizei testes de carga utilizando K6 em cenários de alta demanda de requisições e fiz monitoramento do desempenho da aplicação utilizando Prometheus e Grafana.",
+      "content_3": "Implementei serviços de mensageria com RabbitMQ com ênfase em otimizar a performance da comparação de arquivos do relatório de transações.",
+      "content_4": "Criei a modelação dos dados e mapeamento de entidades para tabelas do banco de dados utilizando Entity Framework.",
+      "content_5": "Tecnologias e ferramentas utilizadas: C#, .NET, Entity Framework, Prometheus, Grafana.",
       "html_content": "<p>Repositório GitHub:</p> <a target=\"_blank\" href=\"https://github.com/luiz-gustavo-alves/pixAPI\"><b>Link</b></a>"
     },
     "Experience_3": {
